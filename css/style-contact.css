@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Author's custom LAYOUT
+   ========================================================================== */
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+
+.backgroud-Image{	
+	background-image: url("../img/backg.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 1200px;
+	margin-bottom: 8%;
+	
+}
+
+.backgroud-White{
+	background: rgba(255, 255, 255, 0.83);
+	width: 100%;
+	height: 180px;
+}
+.box-white{
+	background-color: #fff;
+	margin: 50px 0px 0px 50px;
+	padding:80px 30px;
+	-webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+
+.form-control{
+	padding: 0px;
+}
+select> .form-control{
+	background-color: #15293e;
+}
+.fa-facebook,
+.fa-linkedin,
+.fa-twitter,
+.fa-whatsapp{
+	font-size: 2em !important;
+}
+/*BORDEICONS*/
+
+
+.bkg-reds{
+	background-image: url("../img/bkg.jpg");
+	padding: 1em;
+	width: 60px;
+	height: 60px;
+	border: 10px solid #fff;
+}
+
+.box-blue {
+    color: #fff;
+    background-color: #15293e;
+    margin: 90px 0px 0px -14px;
+    padding: 60px 40px 10px 40px;
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
+    height: 350px;
+    width: 400px;
+}
+
+.borde-circle{
+	border-radius: 50%;
+	color: #f37920;
+}
+
+.fa-whatsapp:before,
+.fa-twitter:before,
+.fa-facebook:before,
+.fa-linkedin:before {
+    color: #f37920;
+    position: relative;
+}
+
+#circleRedes {
+    margin-top: -320px;
+    padding: 0px 60px;
+    margin-right: -80px;
+    margin-left: -80px;
+}
+
+/* FORMULARIO */
+
+.btn-enviar{
+	background-color: #f37820;
+    border-radius: none;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    margin-left: 400px;
+    padding: 1.5em 4em;
+    color: #fff;
+    font-weight: 300;
+    line-spacing: 2px;
+    margin-top: -35px;
+    box-shadow: 10px 10px 5px rgba(135, 135, 135, 0.59);
+    
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    box-shadow: inset 0 0px 0px rgba(55, 54, 54, 0.075);
+}
+
+.form-control:focus {
+	background-color: #f37820;
+  }
+
+
+.form-control:-ms-input-placeholder {
+  color: #15293e;
+}
+.form-control::-webkit-input-placeholder {
+  color: #15293e;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #15293e !important;
+  opacity: 1;
+}
+.form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
+textarea.form-control {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+}
