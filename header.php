@@ -192,8 +192,6 @@ require_once('functions.php');
 					<button class="btn fa fa-times-circle-o close-cornerbox-share-alt hvr-bounce-out" id="close-button-cornerbox-share-alt"></button>
 				</div>
 				
-				 
-				
 
 				
 				        <main>
