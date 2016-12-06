@@ -28,7 +28,7 @@
 					        		<a href="#"><button class="btn botonConocenos" type="button">Conócenos</button></a>
 					        	</div>-->
 								<!-- texto de contacto --->
-								<h2 class="slogan conecta">Conecta con nosotros</h2>
+								<h2 class="slogan pienso">Conecta con nosotros</h2>
 							</div>
 				        </div>
 					</div>
@@ -36,11 +36,14 @@
 	        </div>
         </div>
     </section><!--endSectionVideo-->
-    <article class="backgroud-Image">
+
+	<article class="backgroud-Image">
 		<div class="container-fluid backgroud-White">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-center">
+						<div >	
+						</div>
 						<h2 class="contact">Contacto</h2>
 						<hr class="lineaContact">
 						<h6 class="sloganContact">ESTRATEGIAS DIGITALES QUE DAN RESULTADOS</h6>
@@ -105,11 +108,6 @@
 								<h5><small id="emailHelp" class="form-text text-muted">*Datos Requeridos.</small></h5><br>
 							</form>
 						</div>
-						<div class="row">
-							<div class="col-md-8 offset-md-4">
-								<button type="submit" class="btn btn-enviar">Enviar</button>
-							</div>
-						</div>
 					</div>
 					<div class="col-xs-12 col-md-5 text-justify box-blue">
 						<div  id="circleRedes">
@@ -126,6 +124,11 @@
 						<p>contacto@gamol.com.mx</p>
 						<p>Desde Estados Unidos y Canadá marcar al (347) 416-6527</p>
 						<p>From USA and Canadá call (347) 416-6527</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 offset-md-4">
+						<button type="submit" class="btn btn-enviar">Enviar</button>
 					</div>
 				</div>
 			</div>

@@ -39,12 +39,7 @@ require_once('functions.php');
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-footer.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-contact.css">
         
-        <!-- stylesWith F o u n d a t i o n -->
-        <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/components/foundation/foundation.min.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/header/css/style-header.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/layout/css/custom.css">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/footer/css/style-footer.css"> -->
-
+        
         <!-- Componentes -->
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/components/animate.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/components/font-awesome.min.css">
