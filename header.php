@@ -60,7 +60,7 @@ require_once('functions.php');
 			       	<div class="container-fluid">
 			        	<div class="row">
 			        		<div class="navbar-brand">
-						        <a href="#"><img class="icon" src="img/slider/gamol.png"></a>
+						        <a href="header.php"><img class="icon" src="img/slider/gamol.png"></a>
 			        		</div>
 					        <ul class="navbar-right">
 				                <li>

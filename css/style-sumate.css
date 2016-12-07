@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Author's custom LAYOUT
+   ========================================================================== */
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/* Background image&color- header contact*/
+.bckContact{
+	background-image: url("../img/gamolequipo.jpg");
+	background-position: center;
+	width: 100%;
+	height: 450px;
+}	
+
+.bckBlack{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 110%;
+	height: 450px;
+	padding-left: -15px;
+}
+
+.videoPrin {
+    height: 450px;
+}
+
+.conecta {
+    font-size: 70px;
+    margin-left: -150px;
+    color: #fff;
+	margin-top: -30px;
+}
+
+.contact{
+	color: #15293e;
+	font-size: 4em;
+	font-weight: 600;
+	padding: 70px 0px 0px 0px;
+}
+.lineaContact{
+	border: 2px solid #f37820;
+	width: 10%;
+}
+
+.sloganContact{
+	color: #15293e;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+}
+
+/* Backg section*/
+.backgroud-Image{	
+	background-image: url("../img/backg.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	width: 100%;
+	height: 1200px;
+	margin-bottom: 8%;
+}
+
+.backgroud-White{
+	background: rgba(255, 255, 255, 0.83);
+	width: 100%;
+	height: 280px;
+}
+
+.box-white{
+	background-color: #fff;
+	margin: 50px 0px 0px 50px;
+	padding:80px 80px;
+	-webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+

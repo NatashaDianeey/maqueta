@@ -28,7 +28,7 @@
 					        		<a href="#"><button class="btn botonConocenos" type="button">Conócenos</button></a>
 					        	</div>-->
 								<!-- texto de contacto --->
-								<h2 class="slogan conecta">Conecta con nosotros</h2>
+								<h3 class="conecta">Conecta con nosotros</h3>
 							</div>
 				        </div>
 					</div>
@@ -101,8 +101,15 @@
 										<a class="avisoprivacidad" href="#">Acepto términos del Aviso de Privacidad</a>
 									</label>
 								</div>
-								<div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
-								<h5><small id="emailHelp" class="form-text text-muted">*Datos Requeridos.</small></h5><br>
+								<div class="form-check boxCaptcha">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input">
+										<a class="NoRobot" href="#">No soy un Robot</a>
+									</label>
+								</div>
+								<!-- recCaptcha-->
+								<!--<div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
+								<h5><small id="emailHelp" class="form-text text-muted">*Datos Requeridos.</small></h5><br>-->
 							</form>
 						</div>
 						<div class="row">
@@ -120,12 +127,12 @@
 								<span class="bkg-reds img-circle fa fa-whatsapp"></span>  
 							</ul>
 						</div>
-						<p>Av. Horacio No. 1844, piso 10 Esq. Periférico, Col. Los Morales polanco, C.P. 11510 México D.F.</p>
-						<p>Tel. +528(55) 5262 9393</p>
-						<p>01 800 00 GAMOL (42665) </p>
-						<p>contacto@gamol.com.mx</p>
-						<p>Desde Estados Unidos y Canadá marcar al (347) 416-6527</p>
-						<p>From USA and Canadá call (347) 416-6527</p>
+						<p class="direc">Av. Horacio No. 1844, piso 10 Esq. Periférico, Col. Los Morales polanco, C.P. 11510 México D.F.</p>
+						<p class="direc">Tel. +528(55) 5262 9393</p>
+						<p class="direc">01 800 00 GAMOL (42665) </p>
+						<p class="direc">contacto@gamol.com.mx</p>
+						<p class="direc">Desde Estados Unidos y Canadá marcar al (347) 416-6527</p>
+						<p class="direc">From USA and Canadá call (347) 416-6527</p>
 					</div>
 				</div>
 			</div>
