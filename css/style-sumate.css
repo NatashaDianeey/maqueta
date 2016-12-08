@@ -13,8 +13,10 @@
     padding-left: 0px;
 }
 /* Background image&color- header contact*/
-.bckContact{
-	background-image: url("../img/gamolequipo.jpg");
+.backgroundSumate{
+	background-image: url("../img/background-sumate.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-position: center;
 	width: 100%;
 	height: 450px;
@@ -31,14 +33,14 @@
     height: 450px;
 }
 
-.conecta {
+.hiGamol{
     font-size: 70px;
     margin-left: -150px;
     color: #fff;
 	margin-top: -30px;
 }
 
-.contact{
+.sumate {
 	color: #15293e;
 	font-size: 4em;
 	font-weight: 600;
@@ -53,6 +55,90 @@
 	color: #15293e;
 	font-size: 1.3em;
 	letter-spacing: 2px;
+}
+
+/* section box-blue*/
+
+.bckColorSumate{
+	background-color: #1d2535;
+	padding: 2%;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+
+.contPerfil p{
+	color: #fff;
+    font-size: 1.3em;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.contPerfil ul li{
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 200;
+	letter-spacing: 1px;
+	margin-left: -25px;
+	padding-left: 4px;
+	padding-bottom: 5px;
+}
+
+.contOfrec ul li {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    list-style: none;
+    margin-left: -40px;
+    padding-bottom: 5px;
+}
+
+strong {
+	font-weight: 400;
+}
+
+.perfil{
+	font-size: 1.9em;
+	color: #f37820;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+.ofrecemos,
+.envianos{
+	font-size: 1.9em;
+	color: #f37820;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.box-white-sumate{
+    background-color: #fff;
+    margin: 50px 30px 0px 0px;
+    padding: 80px 80px;
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
+    box-shadow: 5px 5px 5px rgba(24, 24, 24, .5);
+}
+
+.btn-enviar-sumate {
+    background-color: #f37820;
+    border-radius: none;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    margin-left: 300px;
+    padding: 1.5em 4em;
+    color: #fff;
+    font-weight: 300;
+    line-spacing: 2px;
+    margin-top: -35px;
+    box-shadow: 5px 5px 15px rgba(24, 24, 24, 0.59);
 }
 
 /* Backg section*/

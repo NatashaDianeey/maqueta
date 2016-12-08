@@ -38,6 +38,8 @@ require_once('functions.php');
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/custom.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-footer.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-contact.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-sumate.css">
+
         
         
         <!-- Componentes -->
@@ -62,20 +64,20 @@ require_once('functions.php');
 			        		<div class="navbar-brand">
 						        <a href="header.php"><img class="icon" src="img/slider/gamol.png"></a>
 			        		</div>
-					        <ul class="navbar-right">
-				                <li>
+					        <ul class="navbar-right navegadorHeader">
+				                <li class="listIcons">
 				                	<a href="#" class="icons fa fa-phone hvr-bounce-in" id="cornerbox-phone"></a>
 				                </li>
-				                <li>
+				                <li class="listIcons">
 				                	<a href="#" class="icons fa fa-share-alt hvr-bounce-in" id="cornerbox-share-alt"></a>
 				                </li>
-				                <li>
+				                <li class="listIcons">
 				                	<a href="#" class="icons icon-idioma hvr-bounce-in">EN</a>
 				                </li>
-				                <li>
+				                <li class="listIcons">
 				                	<a href="#" class="icons botonHeadphone fa fa-headphones hvr-bounce-in hvr-back-pulse" id="cornerbox-headphones"></a>
 				                </li>
-				                <li>
+				                <li class="listIcons">
 				                	<a href="#" class="icons botonMenuBars fa fa-bars hvr-bounce-in hvr-back-pulse" id="open-button"></a>
 				                </li>
 				            </ul>

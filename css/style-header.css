@@ -64,12 +64,12 @@ header.smaller {
 	margin:4% 5%;
 }
 
-ul{
+.navegadorHeader{
 	padding-left: 0px;
 	text-align: center;
 }
 
-li {
+.listIcons {
 	list-style: none;
 	display: inline;
 	text-decoration: none;
