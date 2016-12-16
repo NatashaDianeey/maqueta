@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Author's custom LAYOUT
+   ========================================================================== */
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+
+
+
+/*BACKS*/
+.back8{
+	background-color: #15283c;
+	padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+
+/*COLABORADORES*/
+
+.blogCuadro{
+	height:400px;
+	background-color: #fbfbfb;
+	border: 3px solid #d9d7d7;
+	padding-top: 35%;
+	
+}
+.blogCuadro:hover{
+	background: url(../img/assets/hover_blog.png) no-repeat;
+	height:400px;
+}
+
+.ceroPad{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+/*MEDIASQUERIES*/
+
+
+/*VERSION MOBILE*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1024px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) and (max-width: 979px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+		
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+	
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1224px) {
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 678px) and (max-width : 1024px) {
+
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 481px) and (max-width : 677px) {
+
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+
+
+
+

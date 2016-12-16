@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Author's custom LAYOUT
+   ========================================================================== */
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/* Background image&color- header contact*/
+.backgroundSumate{
+	background-image: url("../img/background-sumate.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 450px;
+}	
+
+.bckBlack{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 110%;
+	height: 450px;
+	padding-left: -15px;
+}
+
+.hiGamol{
+    font-size: 70px;
+    margin-left: -150px;
+    color: #fff;
+	margin-top: -30px;
+}
+
+.sumate {
+	color: #15293e;
+	font-size: 4em;
+	font-weight: 600;
+	padding: 70px 0px 0px 0px;
+}
+.lineaContact {
+    border: 1px solid #f37820;
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.sloganSumate{
+	color: #15293e;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+}
+   
+/* section box-blue*/
+
+.bckColorSumate {
+    background-color: #1d2536;
+    padding: 2%;
+    margin-top: 2%;
+}
+.communManager {
+    color: #fff;
+    font-weight: 200;
+    font-size: 2.5em;
+    margin-bottom: 85px;
+	}
+
+
+.contPerfil p{
+	color: #fff;
+    font-size: 1.3em;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.contPerfil ul li{
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 200;
+	letter-spacing: 1px;
+	margin-left: -25px;
+	padding-left: 4px;
+	padding-bottom: 5px;
+}
+
+.contOfrec ul li {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    list-style: none;
+    margin-left: -40px;
+    padding-bottom: 5px;
+}
+
+strong {
+	font-weight: 400;
+}
+
+.perfil{
+	font-size: 1.9em;
+	color: #f37820;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+.ofrecemos,
+.envianos{
+	font-size: 1.9em;
+	color: #f37820;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.box-white-sumate{
+    background-color: #fff;
+    margin: 50px 30px 0px 0px;
+    padding: 80px 80px;
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
+    box-shadow: 5px 5px 5px rgba(24, 24, 24, .5);
+}
+
+.btn-reg-vac,
+.btn-enviar-sumate {
+    background-color: #f37820;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    margin-left: 300px;
+    padding: 1.5em 4em;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: -35px;
+    box-shadow: 5px 5px 15px rgba(24, 24, 24, 0.59);
+}
+
+.btn-reg-vac {
+    margin: 35px -30px;
+}
+/* Backg section*/
+.backgroud-Image{	
+	background-image: url("../img/backg.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: auto;
+}
+
+.backgroud-White {
+    background: rgba(255, 255, 255, 0.83);
+    width: 100%;
+    height: 260px;
+}
+
+.box-white-sumate{
+	background-color: #fff;
+	margin: 50px 0px 0px 0px;
+	padding:80px 80px;
+	-webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+.back-cv{
+	background-image: url("../img/bgs/gamolequipo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.back-oran{
+	background:rgba(243, 120, 32, 0.8);
+	width: 100%;
+	margin: 0px;
+}
+.buscaTalento{
+	color: #15293e;
+	font-size: 2.6em;
+	font-weight: 500;
+}
+.textEnviaCV{
+	color: #fff;
+	font-size: 1.5em;
+}
+.btn-env-cv {
+	background-color: #15293e;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    padding: 1em 4em;
+    color: #fff;
+    font-size: 1.4em;
+    margin: 40px 0px 40px 0px; 
+    font-weight: 300;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 15px rgba(24, 24, 24, 0.7);
+}
+
+@media (max-width: 600px) {
+	.videoPrin {
+	    height: 570px;
+	}
+	.backgroundSumate {
+	    background-size: inherit;
+	    height: 180px;
+	}
+	.bckBlack {
+	    height: 180px;
+    }
+	.bckColorSumate{
+		padding: 3%;
+		margin: 5% 3%;
+	}
+	.hiGamol {
+	    margin-left: -72px;
+	    margin-top: -170px;
+	    font-size: 2.5em;
+	}
+	.backgroud-White{
+		height: 130px;
+	}
+	.sloganSumate {
+	    font-size: 0.8em;
+	    letter-spacing: 1px;
+	    margin: 0px -45px 0px -45px;
+	}
+	.sumate {
+	    font-size: 2em;
+	    padding: 10px 0px 0px 0px;
+	}
+	
+	.communManager {
+	    color: #fff;
+	    font-size: 1.4em;
+	    font-weight: 300;
+	    text-align: center;
+	    margin-bottom:0px;
+	}
+	.perfil {
+        font-size: 1em;
+		padding-top: 5px;	
+    }
+	.contPerfil ul li {
+	    font-size: 0.8em;
+	}
+	.contPerfil p {
+	    font-size: 0.8em;
+    }
+    .contOfrec ul li {
+	    font-size: 0.8em;
+    }
+    .ofrecemos, 
+    .envianos {
+    	font-size: 1em;
+    }
+    .boxCaptcha {
+	    padding: 10px 0px 5px 5px;
+	}
+	.box-white-sumate {
+		margin: 20px -10px 50px -10px;
+	    padding: 40px 35px;
+	}
+	.btn-reg-vac {
+		margin: 35px -20px;
+		padding: 1em 1.3em;
+	}
+	label {
+	    font-size: 0.9em;
+	}
+	.btn-enviar-sumate {
+	    margin-left: 120px;
+	    padding: 12px 35px;
+	    margin-top: -120px;
+    }
+    .buscaTalento {
+	    font-size: 1.6em;
+	}
+	.textEnviaCV {
+	    color: #fff;
+	    font-size: 0.8em;
+	}
+	.btn-env-cv {
+	    padding: 0.8em 2em;
+	    font-size: 1em;
+	    margin: 10px 0px 20px 0px;
+	    font-weight: 300;
+	    letter-spacing: 1px;
+	}
+    
+}
+
+@media (min-width: 850px) {
+
+	.box-white-sumate {
+	    padding: 50px 30px;
+	}
+	.boxCaptcha {
+	    padding: 20px 0px 10px 10px;
+	}

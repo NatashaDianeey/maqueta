@@ -9,7 +9,7 @@
     function init() {
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 200,
+                shrinkOn = 50,
                 header = document.querySelector("header");
             if (distanceY > shrinkOn) {
                 classie.add(header,"smaller");
@@ -158,14 +158,7 @@
 
 })(); /* end.cornerboxPhone*/
 
-
-
-
-
-
-
 /* cornerbox-share-alt*/
-
 (function() {
 
 	var bodyEl = document.body,
@@ -204,8 +197,62 @@
 	}
 
 	init();
-
 })(); /* end.cornerbox-share-alt*/
 
 
+/* Contadores y slider*/
 
+$(document).ready(function(){
+	$('#counter1').each(function () {
+	    $(this).prop('Counter',0).animate({
+	        Counter: $(this).text()
+	    }, {
+	        duration: 4000,
+	        easing: 'swing',
+	        step: function (now) {
+	            $(this).text(Math.ceil(now));
+	        }
+	    });
+	});
+	$('#counter2').each(function () {
+	    $(this).prop('Counter',0).animate({
+	        Counter: $(this).text()
+	    }, {
+	        duration: 6000,
+	        easing: 'swing',
+	        step: function (now) {
+	            $(this).text(Math.ceil(now));
+	        }
+	    });
+	});
+	$('#counter3').each(function () {
+	    $(this).prop('Counter',0).animate({
+	        Counter: $(this).text()
+	    }, {
+	        duration: 2000,
+	        easing: 'swing',
+	        step: function (now) {
+	            $(this).text(Math.ceil(now));
+	        }
+	    });
+	});
+	$('#counter4').each(function () {
+	    $(this).prop('Counter',0).animate({
+	        Counter: $(this).text()
+	    }, {
+	        duration: 2000,
+	        easing: 'swing',
+	        step: function (now) {
+	            $(this).text(Math.ceil(now));
+	        }
+	    });
+	});
+	$('.back5').on('mouseenter', function() {
+		$(this).addClass('backrgba');
+	});
+
+	$('.back5').on('mouseleave', function() {
+		$(this).removeClass('backrgba');
+	});
+	$('.bxslider').bxSlider();
+ });

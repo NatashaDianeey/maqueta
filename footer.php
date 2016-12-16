@@ -1,10 +1,29 @@
-
-        </main><!-- end.Main -->
-
-        <footer>
-
-        </footer><!-- end.Footer -->
-        		</div>
+		
+		        </main><!-- end.Main -->
+		
+		        <footer>
+					<div class="container-fluid back6">
+			        	<div class="container">
+							<div class="row white">
+								<div class="col-md-2 col-sm-12">
+									<img src="img/assets/gamol.png">
+								</div>
+								<div class="col-md-2 col-sm-12">
+									<a href="">Agencia</a><br><a href="">Servicios</a><br><a href="">Proyectos</a><br><a href="">Súmate</a>
+								</div>
+								<div class="col-md-2 col-sm-12">
+									<a href="">Soporte técnico</a><br><a href="">Blog</a><br><a href="">Contacto</a><br><a href="">Aviso de privacidad</a>
+								</div>
+								<div class="col-md-4 col-sm-12">
+									<p class="white">Av. Horacio No.1844, piso 10 Esq.Periférico, Col. Los Morales Polanco,C.P.11510,México DF.<br>tel. +52 (55) 5262 9393 | 01800 00 GAMOL (42665) | contacto@gamol.com.mxg<br><br>Gamol © 2016 Todos los derechos reservados.</p>
+								</div>
+								<div class="col-md-2 col-sm-12">
+									<img class="mt-8" src="img/assets/cmmi_blue.png">
+								</div>
+							</div>
+			        	</div> 	
+		          	</div>  
+		        </footer>
 			</div><!-- /content-wrap -->
 		</div><!-- /containerPrincipal -->
 

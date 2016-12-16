@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Author's custom LAYOUT
+   ========================================================================== */
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+
+
+/*COLORES*/
+
+.orange_light{
+	color:#F28C4D;	
+}
+
+
+/*BACKS*/
+
+.back8{
+	background-color: #15283c;
+	padding-top: 50px;
+    padding-bottom: 50px; 
+}
+.back9{
+	background-color: #15283c;
+}
+.back10{
+	background-color: #e0e0e0;
+}
+.back11{
+	background-color: white;
+}
+
+.margenBoton{
+	margin-top: 25px;
+}
+
+/* CONTACTO*/
+
+.menu-lateral {
+	position: fixed;
+	right: 12.4%;
+	top: 30%;
+	z-index: 1000;
+}
+.menu-lateral ul {
+	padding: 0;
+	list-style: none;
+}
+.menu-lateral ul li a {
+	display: inline-block;
+	padding: 10px 15px;
+	width: 40px;
+}
+
+.menu-lateral ul li a span {
+	display: none;
+	
+}
+
+#face{
+	background: #39579A;
+}
+#twit{
+	background: #039EF6;
+}
+#print{
+	background: #728A8D;
+}
+#mail{
+	background: #848484;
+}
+#plus{
+	background: #FF684B;
+}
+/*MEDIASQUERIES*/
+
+
+/*VERSION MOBILE*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1024px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) and (max-width: 979px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+		
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	
+	
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1224px) {
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 678px) and (max-width : 1024px) {
+
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 481px) and (max-width : 677px) {
+
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+.menu-lateral {
+	position: fixed;
+	right:0%;
+	top:20%;
+	z-index: 2000;
+}
+.menu-lateral ul {
+	padding: 0;
+	list-style: none;
+}
+.menu-lateral ul li a {
+	display: inline-block;
+	padding: 10px 15px;
+	width: 80px;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.menu-lateral ul li a span {
+	display: none;
+	
+}
+
+
+	
+
+}
+
+
+
+

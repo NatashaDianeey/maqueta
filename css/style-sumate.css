@@ -8,160 +8,101 @@
 /*mediaquery desktop 2*/
 /*mediaquery desktop 2*/
 
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-/* Background image&color- header contact*/
-.backgroundSumate{
-	background-image: url("../img/background-sumate.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 450px;
-}	
-
-.bckBlack{
-	background-color: rgba(0, 0, 0, 0.5);
-	width: 110%;
-	height: 450px;
-	padding-left: -15px;
-}
-
-.videoPrin {
-    height: 450px;
-}
-
-.hiGamol{
-    font-size: 70px;
-    margin-left: -150px;
-    color: #fff;
-	margin-top: -30px;
-}
-
-.sumate {
-	color: #15293e;
-	font-size: 4em;
-	font-weight: 600;
-	padding: 70px 0px 0px 0px;
-}
-.lineaContact{
-	border: 2px solid #f37820;
-	width: 10%;
-}
-
-.sloganContact{
-	color: #15293e;
-	font-size: 1.3em;
-	letter-spacing: 2px;
-}
-
-/* section box-blue*/
-
-.bckColorSumate{
-	background-color: #1d2535;
-	padding: 2%;
-}
-
-label {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 12px;
-    font-weight: 600;
-    font-size: 1.3em;
-}
-
-
-.contPerfil p{
-	color: #fff;
-    font-size: 1.3em;
-    font-weight: 200;
-    letter-spacing: 1px;
-}
-
-.contPerfil ul li{
-	color: #fff;
-	font-size: 1.2em;
-	font-weight: 200;
-	letter-spacing: 1px;
-	margin-left: -25px;
-	padding-left: 4px;
-	padding-bottom: 5px;
-}
-
-.contOfrec ul li {
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: 200;
-    letter-spacing: 1px;
-    list-style: none;
-    margin-left: -40px;
-    padding-bottom: 5px;
-}
-
-strong {
-	font-weight: 400;
-}
-
-.perfil{
-	font-size: 1.9em;
-	color: #f37820;
-	letter-spacing: 1px;
-	font-weight: 100;
-}
-
-.ofrecemos,
-.envianos{
-	font-size: 1.9em;
-	color: #f37820;
-	letter-spacing: 1px;
-	font-weight: 400;
-}
-
-.box-white-sumate{
-    background-color: #fff;
-    margin: 50px 30px 0px 0px;
-    padding: 80px 80px;
-    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
-    box-shadow: 5px 5px 5px rgba(24, 24, 24, .5);
-}
-
-.btn-enviar-sumate {
-    background-color: #f37820;
-    border-radius: none;
-    border: 0px solid transparent;
-    border-radius: 0px;
-    margin-left: 300px;
-    padding: 1.5em 4em;
-    color: #fff;
-    font-weight: 300;
-    line-spacing: 2px;
-    margin-top: -35px;
-    box-shadow: 5px 5px 15px rgba(24, 24, 24, 0.59);
-}
-
-/* Backg section*/
-.backgroud-Image{	
-	background-image: url("../img/backg.jpg");
-	background-size: cover;
-	background-position: center bottom;
-	width: 100%;
-	height: 1200px;
-	margin-bottom: 8%;
-}
-
-.backgroud-White{
-	background: rgba(255, 255, 255, 0.83);
-	width: 100%;
-	height: 280px;
-}
-
-.box-white{
+.back-white-icons{
 	background-color: #fff;
-	margin: 50px 0px 0px 50px;
-	padding:80px 80px;
-	-webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
-        box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+	width: 100%;
+	height: auto;
+}
+.buscandoTalento{
+	color:#333;
+	font-weight: 200;
+    font-size: 2.5em;
+    margin-bottom: 85px;
+}
+.contBackgSumate{
+	width: 100%;
+    padding: 5% 10%;
+}
+.back-Gray{
+	background: rgba(0, 0, 0, 0.2);
+	padding: 0% 20%;
+}
+.icon-1{
+	margin: 100px 0px 50px 0px;
+	width:60%;
+	height: auto;
 }
 
+.boxIconsSumate{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.encabezadosEquipoSumate {
+	color: #000;
+	font-size: 1.8em;
+    letter-spacing: 2px;
+    font-weight: 400;
+	margin-bottom: 49px;
+}
+
+
+@media (max-width: 768px) {
+	.buscandoTalento {
+	    font-size:  2.5em;
+	    margin-bottom: 35px;
+	}
+	.encabezadosEquipoSumate {
+	    font-size: 2.4em;
+	    letter-spacing: 0px;
+	    margin-bottom: 49px;
+	}
+	.icon-1 {
+	    margin: 70px 0px 50px 0px;
+	}
+}
+@media (max-width: 414px) {
+	.buscandoTalento {
+	    font-size: 1.3em;
+	    margin-bottom: 35px;
+	}
+	.encabezadosEquipoSumate {
+	    font-size: 1.2em;
+	    letter-spacing: 0px;
+	    margin-bottom: 29px;
+	}
+	.icon-1 {
+	    margin: 30px 0px 20px 0px;
+	}
+}
+@media (max-width: 360px) {
+	.buscandoTalento {
+	    font-size: 1.3em;
+	    margin-bottom: 35px;
+	}
+	.encabezadosEquipoSumate {
+	    font-size: 1.2em;
+	    letter-spacing: 0px;
+	    margin-bottom: 29px;
+	}
+	.icon-1 {
+	    margin: 30px 0px 20px 0px;
+	}
+}
+@media (max-width: 320px) {
+
+	.buscandoTalento {
+	    font-size: 1.1em;
+	    margin-bottom: 35px;
+	}
+	.encabezadosEquipoSumate {
+	    font-size: 1em;
+	    letter-spacing: 0px;
+	    font-weight: 400;
+		margin-bottom: 35px;	
+	}
+	.icon-1 {
+	    margin: 40px 0px 20px 0px;
+	    width: 50%;
+	    height: auto;
+	}	
+}

@@ -1,33 +1,10 @@
-	<section class="videoPrin" role="video">
-
-		<!--<video id="vide-matatena" class="visible-desk" height="100%" preload="auto" autoplay muted loop>
-	        <source src="img/videos/ocean.mp4" type="video/mp4">
-			<source src="img/videos/ocean.ogg" type="video/ogg">
-			Tu navegador no soporta HTML5 video.
-        </video>-->
-        
-		<!-- img de contacto--->
+	<section>
 		<div class="container-fluid bckContact">
 			<div class="row bckBlack">
 				<div class="col-xs-12 text-center">
-			
-				<!-- <img class="bckContact" src="img/gamolequipo.jpg" alt="Video imagen"> -->
-				<!--img de video--->
-		
-		        <!--<img class="visible-mobile" src="img/ocean.jpg" alt="Video imagen">
-		        <div class="overlay-video"></div>--> <!--endVideo-->
-        
 			        <div class="infoVid" data-wow-delay="0.3s">
 				        <div class="container">
 					        <div class="row">
-						        <!--texto de video --->
-			
-					        	<!--<div class="col-lg-12" data-wow-delay="0.6s"> 
-					        		<h4 class="slogan estrategias">Estrategias digitales que dan resultados</h4>
-					        		<h2 class="slogan pienso">#PiensoCreoSoyDigital</h2>
-					        		<a href="#"><button class="btn botonConocenos" type="button">Conócenos</button></a>
-					        	</div>-->
-								<!-- texto de contacto --->
 								<h3 class="conecta">Conecta con nosotros</h3>
 							</div>
 				        </div>
@@ -35,7 +12,7 @@
 	        	</div>
 	        </div>
         </div>
-    </section><!--endSectionVideo-->
+    </section>
     <article class="backgroud-Image">
 		<div class="container-fluid backgroud-White">
 			<div class="container">
@@ -51,7 +28,7 @@
 		<div class="container-fluid">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-md-7">
+					<div class="col-xs-12 col-md-7 no-pad no-mar">
 						<div>
 							<form class="box-white">
 								<div class="form-group">
@@ -59,15 +36,15 @@
 									<input type="email" class="form-control no-border" aria-describedby="emailHelp">
 								</div>
 								<div class="form-group">
-									<label for="exampleInputPassword1">*APELLIDO</label>
+									<label>*APELLIDO</label>
 									<input type="password" class="form-control">
 								</div>
 								<div class="form-group">
-									<label for="exampleInputEmail1">*E-MAIL</label>
+									<label>*E-MAIL</label>
 									<input type="email" class="form-control" aria-describedby="emailHelp">
 								</div>
 								<div class="form-group">
-									<label for="exampleInputPassword1">*TELÉFONO</label>
+									<label>*TELÉFONO</label>
 									<input type="password" class="form-control">
 								</div>
 								<div class="form-group">
@@ -92,8 +69,8 @@
 									<input type="text" class="form-control">
 								</div>
 								<div class="form-group">
-									<label for="exampleSelect2">*MENSAJE / DUDA / COMENTARIO</label>
-									<input type="password" class="form-control">
+									<label>*MENSAJE / DUDA / COMENTARIO</label>
+									<input type="text" class="form-control">
 								</div>
 								<div class="form-check">
 									<label class="form-check-label">
@@ -107,32 +84,39 @@
 										<a class="NoRobot" href="#">No soy un Robot</a>
 									</label>
 								</div>
+								
 								<!-- recCaptcha-->
 								<!--<div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
 								<h5><small id="emailHelp" class="form-text text-muted">*Datos Requeridos.</small></h5><br>-->
+								<div>
+									<p class="datosRe"><small>*Datos requeridos</small></p>
+								</div>
 							</form>
 						</div>
 						<div class="row">
-							<div class="col-md-8 offset-md-4">
+							<div class="col-xs-12">
 								<button type="submit" class="btn btn-enviar">Enviar</button>
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-md-5 text-justify box-blue">
-						<div  id="circleRedes">
-							<ul>
-								<span class="bkg-reds img-circle fa fa-facebook"></span>	
-								<span class="bkg-reds img-circle fa fa-linkedin"></span> 
-								<span class="bkg-reds img-circle fa fa-twitter"></span>
-								<span class="bkg-reds img-circle fa fa-whatsapp"></span>  
-							</ul>
+					<div class="col-xs-12 col-md-5 no-pad no-mar text-justify">
+						<div class="box-blue">
+							<div  id="circleRedes">
+								<ul>
+									<span class="bkg-reds img-circle fa fa-facebook"></span>	
+									<span class="bkg-reds img-circle fa fa-linkedin"></span> 
+									<span class="bkg-reds img-circle fa fa-twitter"></span>
+									<span class="bkg-reds img-circle fa fa-whatsapp"></span>  
+								</ul>
+							</div>
+							<p class="direc">Av. Horacio No. 1844, piso 10 Esq. Periférico, Col. Los Morales polanco, C.P. 11510 México D.F.</p>
+							<p class="direc">Tel. +528(55) 5262 9393</p>
+							<p class="direc">01 800 00 GAMOL (42665) </p>
+							<p class="direc">contacto@gamol.com.mx</p>
+							<p class="direc">Desde Estados Unidos y Canadá</p>
+							<p class="direc">marcar al (347) 416-6527</p>
+							<p class="direc">From USA and Canadá call (347) 416-6527</p>
 						</div>
-						<p class="direc">Av. Horacio No. 1844, piso 10 Esq. Periférico, Col. Los Morales polanco, C.P. 11510 México D.F.</p>
-						<p class="direc">Tel. +528(55) 5262 9393</p>
-						<p class="direc">01 800 00 GAMOL (42665) </p>
-						<p class="direc">contacto@gamol.com.mx</p>
-						<p class="direc">Desde Estados Unidos y Canadá marcar al (347) 416-6527</p>
-						<p class="direc">From USA and Canadá call (347) 416-6527</p>
 					</div>
 				</div>
 			</div>

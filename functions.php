@@ -18,8 +18,14 @@ function TituloSecciones() {
 	    'maqueta.php'=>'Inicio',
 	    'inicio.php'=>'Inicio',
 	    'nosotros.php'=>'Nosotros',
+	    'blog_interna.php'=>'Blog_interna',
+	    'blog.php'=>'Blog',
 	    'contacto.php'=>'Contacto',
-	    'sumate.php'=>'Sumate'
+	    'sumate.php'=>'Sumate',
+	    'sumateinterna.php'=>'SumateInterna',
+	    'agencia.php'=>'Agencia'
+	    
+
 	    //Internas Títulos
 	    //'contacto.php'=>'Contacto',
 	);

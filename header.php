@@ -37,8 +37,14 @@ require_once('functions.php');
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-header.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/custom.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-footer.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-blog.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-blog-interna.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-contact.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-sumate.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-sumateinterna.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/style-agencia.css">
+
+
 
         
         
@@ -54,7 +60,6 @@ require_once('functions.php');
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-
     <body>
 	    <div class="background-containerFluid content-wrap">
 			<div class="content">
@@ -62,7 +67,7 @@ require_once('functions.php');
 			       	<div class="container-fluid">
 			        	<div class="row">
 			        		<div class="navbar-brand">
-						        <a href="header.php"><img class="icon" src="img/slider/gamol.png"></a>
+						        <a href="inicio"><img class="icon" src="img/slider/gamol.png"></a>
 			        		</div>
 					        <ul class="navbar-right navegadorHeader">
 				                <li class="listIcons">
