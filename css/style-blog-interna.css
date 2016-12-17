@@ -28,9 +28,11 @@
 }
 .back10{
 	background-color: #e0e0e0;
+	padding-top: 65px;
 }
 .back11{
 	background-color: white;
+	padding-top: 55px;
 }
 
 .margenBoton{
@@ -41,9 +43,10 @@
 
 .menu-lateral {
 	position: fixed;
-	right: 12.4%;
+	right: 404px;
 	top: 30%;
 	z-index: 1000;
+	
 }
 .menu-lateral ul {
 	padding: 0;
@@ -62,6 +65,7 @@
 
 #face{
 	background: #39579A;
+	padding: 6px;
 }
 #twit{
 	background: #039EF6;

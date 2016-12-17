@@ -5,7 +5,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<h2 class="text-center white">Entérate</h2>
-						<hr class="linea-menu">
+						<hr class="lineaBlog">
 						<h5 class="text-center white">< article ></h5>
 					</div>
 				</div>
@@ -15,122 +15,122 @@
 	<section>
 		<div class="container-fluid">
 			<div class="row"><!--row1-->
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS  6 PUNTOS PARA <br>  UNA PROMOCIÓN<br> SOCIAL MEDIA EXITOSA</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS  6 PUNTOS PARA <br>  UNA PROMOCIÓN<br> SOCIAL MEDIA EXITOSA</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>¿QUE ESTADO DE <br>LA REPUBLICA INVIERTE MAS<br> EN DESARROLLO DE SOFTWARE?</h5>
-						<small class="gray">Gamol</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">¿QUE ESTADO DE <br>LA REPUBLICA INVIERTE MAS<br> EN DESARROLLO DE SOFTWARE?</h5>
+						<p class="gray">Gamol</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
 			</div>
 			<div class="row"><!--row2-->
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS  6 PUNTOS PARA <br>  UNA PROMOCIÓN<br> SOCIAL MEDIA EXITOSA</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS  6 PUNTOS PARA <br>  UNA PROMOCIÓN<br> SOCIAL MEDIA EXITOSA</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>¿QUE ESTADO DE <br>LA REPUBLICA INVIERTE MAS<br> EN DESARROLLO DE SOFTWARE?</h5>
-						<small class="gray">Gamol</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">¿QUE ESTADO DE <br>LA REPUBLICA INVIERTE MAS<br> EN DESARROLLO DE SOFTWARE?</h5>
+						<p class="gray">Gamol</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
 			</div>
 			<div class="row"><!--row3-->
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 						<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS  6 PUNTOS PARA <br>  UNA PROMOCIÓN<br> SOCIAL MEDIA EXITOSA</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS  6 PUNTOS PARA <br>  UNA PROMOCIÓN<br> SOCIAL MEDIA EXITOSA</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 						<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>¿QUE ESTADO DE <br>LA REPUBLICA INVIERTE MAS<br> EN DESARROLLO DE SOFTWARE?</h5>
-						<small class="gray">Gamol</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">¿QUE ESTADO DE <br>LA REPUBLICA INVIERTE MAS<br> EN DESARROLLO DE SOFTWARE?</h5>
+						<p class="gray">Gamol</p>
 					</div>
 				</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 						<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
 			</div>
 			<div class="row"><!--row4-->
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 					<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 						<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS  6 PUNTOS PARA <br>  UNA PROMOCIÓN<br> SOCIAL MEDIA EXITOSA</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS  6 PUNTOS PARA <br>  UNA PROMOCIÓN<br> SOCIAL MEDIA EXITOSA</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 						<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>¿QUE ESTADO DE <br>LA REPUBLICA INVIERTE MAS<br> EN DESARROLLO DE SOFTWARE?</h5>
-						<small class="gray">Gamol</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">¿QUE ESTADO DE <br>LA REPUBLICA INVIERTE MAS<br> EN DESARROLLO DE SOFTWARE?</h5>
+						<p class="gray">Gamol</p>
 					</div>
 				</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 ceroPad">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ceroPad">
 						<div class="blogCuadro center-block text-center">
-						<small class="orange_light mt-3">PENSANDO DIGITAL</small>
-						<h5>LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
-						<small class="gray">@luismiguelhdz</small>
+						<h4 class="orange_light mt-3">PENSANDO DIGITAL</h4>
+						<h5 class="encabIconos">LOS DIEZ PUNTOS DEL <br> REPUTATION MANAGEMENT</h5>
+						<p class="gray">@luismiguelhdz</p>
 					</div>
 				</div>
 			</div>

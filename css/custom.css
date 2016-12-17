@@ -26,7 +26,6 @@
 .default-pager a.active {
     background: #162a40 !important;
 }
-
 .bx-wrapper .bx-pager{
     text-align: left !important;
     font-size: .85em;
@@ -125,7 +124,8 @@ span:hover{
 }
 
 .textContadores{
-	color:#f26522;	
+	color:#f26522;
+	font-size:2em;	
 }
 .encabInicioHacemos{	
 	color: #fff;
@@ -149,10 +149,23 @@ span:hover{
 .lineaInicioEncabezadosWhite{
 	border: 1px solid #fff;
 }
+.encabIconos{
+	font-size: 1.8em;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
 
+.encabezadoContadores{
+	font-size: 1.8em;
+}
+
+.text-icons,
+.textComenzar,
+.textContactanos,
 .textInicioTrabj{
 	margin-top: 40px;
 	margin-bottom: 40px;
+	font-size: 1.3em;
 }
 
 .textInicioHacms{
@@ -160,75 +173,46 @@ span:hover{
 	margin-bottom: 35px;
 	color: #fff;
     font-weight: 200;
+    font-size: 1.5em;
 }
-
-.btn1{
+.btnCotiz, 
+.btn1 {
+    color: #fff;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    padding: 0.8em 4em 0.8em 3em;
+    background-color: #ff955a;
+    border: none;
+    margin: 30px 0px 30px 0px;
+}
+.btnCotiz{
+	margin-left: -570px
+}
+.white{
 	color: #fff;
-	font-size: 1.1em;
-	letter-spacing: 1px;
-	padding: 1em 4em 1em 4em;
-	background-color: #ff955a;
-	border: none;
-	margin: 30px 0px 30px 0px;
-}
-
-
-
-
-
-.orange{
-	color:#f26522;	
 }
 .orange_light{
-	color:#F28C4D;	
-}
-.blue{
-	color:#15283c;
+	color:#f38d4d;	
 }
 .gray{
 	color:#d9d7d7;
 }
-.black{
-	color: black !important;
+.bloqueSeo{
+	padding: 20px 50px;
+	border-right: 2px solid #000;
+}
+.bloqueComenzar{
+	padding: 20px 50px;
 }
 
-/*FONT-SIZE*/
-
-span{
-	font-size:2em;
+.marg-box{
+	margin-top: 80px;
 }
-
-a{
-	color: white;
-	text-decoration: none;
-}
-h2{
-	font-size: 3em;
-}
-
-.text1{
-	font-size: 2em;
-}
- /*HR*/
- 
-
 /*BACKS*/
 .back1{
     background-image: url("../img/bgs/back1.jpg"); 
     background-repeat: no-repeat;
     background-size: cover; 
-	padding-top: 125px;
-    padding-bottom: 125px;
-}
-
-.back3{
-	background-color: #ff9359;
-	padding-top: 90px;
-    padding-bottom: 90px;
-}
-
-.back4{
-	background-color:#e0e0e0;
 	padding-top: 125px;
     padding-bottom: 125px;
 }
@@ -240,56 +224,49 @@ h2{
 }
 .backColorOrange{
 	background: rgba(255, 147, 89, 0.5);
-
+	padding: 20px 0px 100px 0px;
 }
-
-.back7{
-	background-color:  #ff955a;
-	padding-top: 105px;
-    padding-bottom: 105px;
+.back4{
+	background-color:#aca9a9;
+	width: 100%;
+	height: auto;
 }
-
-.back7a{
-	
-	padding-top: 80px;
-    padding-bottom: 200px;
-    
+.back5{
+    background-image: url("../img/bgs/lap.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /*slider*/
 
 .imgslide{
 	width: 100%;
-	height: 500px;
+	height: auto;
 }
-
 .pad-box{
     padding-right: 80px;
     padding-left: 80px;
     padding-top: 30px;
 }
-
-/*borde servicios*/
-
 .bordeVertical{
 	border-right: 2px solid #a0a0a0; 
 	height:240px;
 }
-
-
 /*BUTTONS*/
-
-
-
 .btn2{
 	padding: 1em 3em 1em 3em;
 	background-color: #15283c;
 	border: none;
 }
-.btn2a{
+.btnBlog{
+	color: #fff;
 	padding: 1em 7em 1em 7em;
 	background-color: #15283c;
 	border: none;
+	font-size: 1.1em;
+	letter-spacing: 1px;
 }
 
 .btn3{
@@ -299,178 +276,87 @@ h2{
 	position: relative;
 }
 
-padding1{
-	5% 0% 5% 0%;
-}
 .logo{
 	width: 2%;
 }
-
-
-
-
-/*POSICIONAMIENTO*/
-
-
-.pl-5{
-    padding-left: 5%;
-}
-
-
-.pr-5{
-	padding-right: 5%;
-}
-
-
-
-
-
-
-
-
-
-
-
 /*MEDIASQUERIES*/
 
-
-/*VERSION MOBILE*/
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1024px) {
-	
+@media only screen and (min-width : 320px) and (max-width : 480px) {  
+	  /* seccion lo que hacemos*/   
+	.back1{
+	    background-image: url("../img/bgs/back1.jpg"); 
+	    background-repeat: no-repeat;
+	    background-size: cover; 
+		padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	.btn1{
+		padding: 0.7em 1.5em 0.7em 1.5em;
+		background-color: #ff955a;
+		border: none;
+	}
+	#trabajamos{
+		text-align: center;
+	}
+	.btn3{
+		padding:1em;
+		background-color:white;
+		border: 2px solid black;
+		position: relative;
+		margin-bottom: 50px;
+	}
+	.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+	    background: #f26522 !important;
+	}
+	.default-pager a.active {
+	    background: #162a40 !important;
+	}
+	.bx-wrapper .bx-pager{
+	    text-align: left !important;
+	    font-size: .85em;
+	    font-family: Arial;
+	    font-weight: bold;
+	    color: #666;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    padding-left: 30px;
+	    background-color: #15283c;
+	    position: absolute;
+	    bottom: 200px !important;
+	    left: 100px;
+	    width:40% !important;
+	}
+	.btnBlog{
+		padding: 1em 7em 1em 7em;
+		background-color: #15283c;
+		border: none;
+	}
+	.backContadores {
+	   width: 120px;
+	   height: 120px;
+	   padding-top: 12%;
+	}
+	.puntero {
+	    margin-top: 50px;
+	    height: 140px;
+	    font-size: 1.1em;
+	}
+	.puntero {
+	    margin-top: 60px;
+	    background-color: #fff;
+	    height: 280px;
+	}
+	.encabInicioAzul {
+    	font-size: 2.3em;
+    }
+    
+    .encabezadoContadores {
+	    font-size: 1.4em;
+	}
+	.encabInicioHacemos{
+		font-size: 3em;
+	}
+	.encabIconos {
+    	font-size: 1.3em;
+    }
 }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 768px) and (max-width: 979px) {
-	
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
-		
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-	
-	
-}
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1224px) {
-}
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 678px) and (max-width : 1024px) {
-
-}
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 481px) and (max-width : 677px) {
-
-}
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-
-
-	  
-  /* seccion lo que hacemos*/   
-.back1{
-    background-image: url("../img/bgs/back1.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover; 
-	padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.btn1{
-	padding: 1em 4em 1em 4em;
-	background-color: #ff955a;
-	border: none;
-}
-
-h2{
-	font-size: 3em;
-}
-
-/* seccion trabajamos*/
-
-#trabajamos{
-	text-align: center;
-}
-
-.btn3{
-	padding:1em;
-	background-color:white;
-	border: 2px solid black;
-	position: relative;
-}
-
-.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #f26522 !important;
-}
-
-.default-pager a.active {
-    background: #162a40 !important;
-}
-
-.bx-wrapper .bx-pager{
-    text-align: left !important;
-    font-size: .85em;
-    font-family: Arial;
-    font-weight: bold;
-    color: #666;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    background-color: #15283c;
-    position: absolute;
-    bottom: 475px !important;
-     left: 100px;
-     width:40% !important;
-}
-
-
-/* seccion contratanos*/
-
-.back4{
-	background-color:#e0e0e0;
-	padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-hr{
-	width: 35%;
-	background-color: #ff955a;
-	height:3px;
-	border: none;
- }
- 
- /*seccion servicios*/
- .hr1{
-	width: 35%;
-	background-color: white;
-	height:3px;
-	border: none;
- }
- 
- .btn2a{
-	padding: 1em 7em 1em 7em;
-	background-color: #15283c;
-	border: none;
-}
-
- footer{
-	text-align: center;
-}
-
-
-	
-
-}
-
-
-
-

@@ -5,7 +5,7 @@
 
 /* Menu top*/
 
-/*
+
     function init() {
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
@@ -21,11 +21,6 @@
         });
     }
     window.onload = init();
-*/
-
-
-
-
 
 
 

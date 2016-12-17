@@ -93,29 +93,29 @@ require_once('functions.php');
 			    <div class="menu-bar-right">
 					<nav class="">
 						<div class="icon-list">
-							<a href="#">
+							<a href="agencia" target="_blank">
 								<span>Agencia</span>
 								<hr class="linea-menu">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<span>Servicios</span>
 								<hr class="linea-menu">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<span>Portafolio</span>
 								<span class="badge pull-right">2 Nuevos</span>
 								<hr class="linea-menu">
 							</a>
-							<a href="#">
+							<a href="sumate" target="_blank">
 								<span>Súmate</span>
 								<span class="badge pull-right">10 Nuevos</span>
 								<hr class="linea-menu">
 							</a>
-							<a href="#">
+							<a href="contacto" target="_blank">
 								<span>Contácto</span>
 								<hr class="linea-menu">
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<span>Soporte técnico</span>
 							</a>
 						</div>
@@ -184,17 +184,13 @@ require_once('functions.php');
 							<h3>Siguenos</h3>
 							<hr class="linea-menu">
 							<ul>
-								<li><a href="#"><span class="redes fa fa-facebook"></span></a></li>
-								<li><a href="#"><span class="redes fa fa-github"></span></a></li>
-								<li><a href="#"><span class="redes fa fa-linkedin"></span></a></li>
-								<li><a href="#"><span class="redes fa fa-twitter"></span></a></li>
+								<li><a href="https://www.facebook.com/GamolWeb/" target="_blank"><span class="redes fa fa-facebook"></span></a></li>
+								<li><a href="#" target="_blank"><span class="redes fa fa-github"></span></a></li>
+								<li><a href="https://www.linkedin.com/company/gamol" target="_blank"><span class="redes fa fa-linkedin"></span></a></li>
+								<li><a href="https://twitter.com/gamolweb" target="_blank"><span class="redes fa fa-twitter"></span></a></li>
 							</ul>
 						</div>
 					</nav>
 					<button class="btn fa fa-times-circle-o close-cornerbox-share-alt hvr-bounce-out" id="close-button-cornerbox-share-alt"></button>
 				</div>
-				
-
-				
-				        <main>
-	        
+			<main>

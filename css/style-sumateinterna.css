@@ -197,9 +197,7 @@ strong {
 }
 
 @media (max-width: 600px) {
-	.videoPrin {
-	    height: 570px;
-	}
+
 	.backgroundSumate {
 	    background-size: inherit;
 	    height: 180px;

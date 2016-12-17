@@ -9,10 +9,20 @@
 									<img src="img/assets/gamol.png">
 								</div>
 								<div class="col-md-2 col-sm-12">
-									<a href="">Agencia</a><br><a href="">Servicios</a><br><a href="">Proyectos</a><br><a href="">Súmate</a>
+									<ul>
+										<li class="liFooter"><a href="agencia" target="_blank">Agencia</a></li>
+										<li class="liFooter"><a href="" target="_blank">Servicios</a></li>
+										<li class="liFooter"><a href="" target="_blank">Proyectos</a></li>
+										<li class="liFooter"><a href="sumate" target="_blank">Súmate</a></li>
+									</ul>
 								</div>
 								<div class="col-md-2 col-sm-12">
-									<a href="">Soporte técnico</a><br><a href="">Blog</a><br><a href="">Contacto</a><br><a href="">Aviso de privacidad</a>
+									<ul>
+										<li class="liFooter"><a href="" target="_blank">Soporte técnico</a></li>
+										<li class="liFooter"><a href="blog" target="_blank">Blog</a></li>
+										<li class="liFooter"><a href="contacto" target="_blank">Contacto</a></li>
+										<li class="liFooter"><a href="" target="_blank">Aviso de privacidad</a></li>
+									</ul>
 								</div>
 								<div class="col-md-4 col-sm-12">
 									<p class="white">Av. Horacio No.1844, piso 10 Esq.Periférico, Col. Los Morales Polanco,C.P.11510,México DF.<br>tel. +52 (55) 5262 9393 | 01800 00 GAMOL (42665) | contacto@gamol.com.mxg<br><br>Gamol © 2016 Todos los derechos reservados.</p>
@@ -47,23 +57,7 @@
         <script src="<?php echo get_template_directory_uri(''); ?>js/scripts/<?php echo $_GET['sec'].'.js'; ?>"></script>
         <?php } else { ?>
         <script src="<?php echo get_template_directory_uri(''); ?>js/scripts/default.js"></script>
-        <script>
-		    function init() {
-		        window.addEventListener('scroll', function(e){
-		            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-		                shrinkOn = 10,
-		                header = document.querySelector("header");
-		            if (distanceY > shrinkOn) {
-		                classie.add(header,"smaller");
-		            } else {
-		                if (classie.has(header,"smaller")) {
-		                    classie.remove(header,"smaller");
-		                }
-		            }
-		        });
-		    }
-		    window.onload = init();
-		</script>
+        
         <?php } ?><!-- ScriptCustom -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

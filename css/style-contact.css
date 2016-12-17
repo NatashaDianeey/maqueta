@@ -8,16 +8,11 @@
 /*mediaquery desktop 2*/
 /*mediaquery desktop 2*/
 
-/*
-.videoPrin img {
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    top: 0%;
-    height: 900px;
-    width: 100%;
+.iconsContact{
+	list-style: none;
+    display: inline;
+    text-decoration: none;
 }
-*/
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
@@ -209,27 +204,6 @@ select> .form-control{
     font-size: 1.3em;
     font-weight: 200;
 }
-/*
-.select {
-	border: 1px solid #ccc;
-	width: 140px;
-	overflow: hidden;
-	background-color:  #000;
-}
-  .select select {
-    padding: 5px 8px;
-    width: 130%;
-    border: none;
-    box-shadow: none;
-    background-color: transparent;
-    background-image: none;
-    appearance: none;
-  }
-
-.select select option .option1 {
-	background-color: aqua !important;
-  }
-*/
 
 .borde-circle{
 	border-radius: 50%;
@@ -239,6 +213,9 @@ select> .form-control{
 .no-mar {
 	margin-right: 0; 
 	margin-left: 0; 
+}
+.no-martop {
+	margin-top: 0; 
 }
 .no-pad {
 	padding-right: 0; 
@@ -492,6 +469,7 @@ select> .form-control{
 	}
 	
 }
+/*
 
 @media (max-width: 768px) {
 }
@@ -503,3 +481,4 @@ select> .form-control{
 }
 @media (max-width: 414px) {
 }
+*/
