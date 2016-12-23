@@ -7,10 +7,17 @@
 /*mediaquery desktop 2*/
 /*mediaquery desktop 2*/
 /*mediaquery desktop 2*/
-.backg-trans-agencia {
-	background: rgba(255, 255, 255, 0.83);
+.backgroudImgAgencia {
+    background-image: url("../img/bgs/backg.jpg");
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 450px;
+    height: 420px;
+}
+.backg-trans-agencia {
+	background: rgba(169, 169, 169, 0.3);
+    width: 100%;
+    height: 4200px;
 }
 .agencia {
 	color: #15293e;
@@ -22,12 +29,21 @@
 .back-agencia-valores{
 	background-color: #f37820;
 	width: 100%;
-	height: 700px;
+	height: auto;
+    padding-top: 250px;
+    padding-bottom: 50px;
 }
 .text-valores{
 	color: #fff;
-	font-size: 1.3em;
 	letter-spacing: 2px;
+	padding: 10px 16px;
+}
+.list-Valores{
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 100;
+	letter-spacing: 3px;
+	padding-bottom: 55px;
 }
 .text-vision,
 .text-mision{
@@ -35,7 +51,8 @@
 	font-size: 1.5em;
 	font-weight: 100;
 	letter-spacing: 3px;
-	
+	padding: 10px 20px;
+
 }
 .backgroundGamolAgencia{
 	background-image: url("../img/bgs/gamolequipo.jpg");
@@ -45,33 +62,104 @@
 	width: 100%;
 	height: 250px;
 }
-.bckBlack{
+.backBlacnGamol{
 	background-color: rgba(0, 0, 0, 0.5);
-	width: 110%;
+	width: 100%;
 	height: 450px;
-	padding-left: -15px;
 }
-.logoGamolAgencia{
-	width: 50%;
 
+.boxwhiteAgencia {
+    background-color: #FFF;
+    padding: 5% 5% 5% 0%;
+    margin: -13% 10% -16% 10%;
+}
+.logoGamolAgencia {
+    margin: 60px 0px 0px 0px;
 }
 .sloganGamol{
 	color: #fff;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	letter-spacing: 2px;
 }
 .backgr-black{
 	background-color: #000;
 	width: 100%;
-	height: 640px;
-}
-.equipoGamol{
-	background: rgb(0, 0, 0, 0.3);
-	width: 100%;
 	height: auto;
 }
+.textAgencia {
+    font-size: 1.7em;
+    padding: 0% 15%;
+    text-align: center;
+}
+.equipoGamol{
+	width: 105%;
+	height: auto;
+}
+.equipo1{
+	background-image: url("../img/slider/equipoLuis.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 105%;
+	height: 406px;
+}
+.equipo2{
+	background-image: url("../img/slider/equipoVal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 105%;
+	height: 406px;
+}
+.equipo3{
+	background-image: url("../img/slider/equipoBeatriz.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 105%;
+	height: 406px;
+}
+.equipo4{
+	background-image: url("../img/slider/equipoRodo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 105%;
+	height: 406px;
+}
+.equipo5{
+	background-image: url("../img/slider/equipoAlma.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 105%;
+	height: 406px;
+}
+.equipo6{
+	background-image: url("../img/slider/equipoMike.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 105%;
+	height: 406px;
+}
+.equipo7{
+	background-image: url("../img/slider/equipoIrving.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 105%;
+	height: 406px;
+}
+.equipo8{
+	background-image: url("../img/slider/equipoFer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 105%;
+	height: 406px;
+}
+
+/*
+.backImgAgencia{
+	background: rgba(52, 111, 174, 0.45);
+}
+*/
+
 .backgr-gray{
-	background: rgba(107, 113, 120, 0.4);
+	background-color: #e5e5e5;
 }
 .alianzas{
 	color: #6c7279;
@@ -79,13 +167,123 @@
 	font-weight: 600;
 	padding: 70px 0px 0px 0px;
 }
-.sloganAlianzas{	
-	color: #6c7279;
+.sloganAlianzas{
+	color: #6b7178;
 	font-size: 1.3em;
 	letter-spacing: 2px;
 	font-weight: 300;
 }
 .logosEmpresaAliadas{
-	width: 50%;
+	width: 100%;
 	height: auto;
+	padding: 50px 0px;
+}
+.backAgencia1{
+	background-image: url("../img/bgs/background-sumate.jpg");
+	width: 50%;
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0px 0px;
+}
+.back-oran {
+    background: rgba(243, 120, 32, 0.8);
+    width: 100%;
+    height: 100%;
+    margin: -10px 0px;
+}
+.back-blue {
+	background: rgba(21, 40, 60, 0.71);
+    width: 100%;
+    height: 100%;
+    margin: -10px 0px;
+}
+.text-agencia {
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 40px 190px 40px 190px;
+    font-size: 3.4em;
+    text-align: center;
+}
+.btnBlueAgencia{
+	margin-left: 330px;
+	margin-bottom: 100px;
+}
+.btnTransAgencia:hover{
+	color: #f37820;
+}
+
+.sect8AgenciaOrang{
+	color: #f37820;
+	text-align: center;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	padding: 130px 0px 0px 0px;
+}
+.sect8AgenciaWhit{
+	text-align: center;
+	color: #fff;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	padding: 130px 0px 0px 0px;
+}
+
+
+@media (max-width: 360px) {
+	.backAgencia1 {
+	    width: 100%;
+	    height: 370px;
+	}
+	.back-agencia-valores {
+    	padding-top: 130px;
+    }
+	.text-vision, .text-mision {
+	    font-size: 1em;
+	    padding: 5px 0px;
+	    text-align: left;
+	}
+	.text-valores {
+	    padding: 5px 0px;
+	}
+	.boxwhiteAgencia {
+	    padding: 5% 5% 5% 0%;
+	    margin: -43% 0% -40% 0%;
+	}
+	.textAgencia {
+	    font-size: 1em;
+	    padding: 0% 15%;
+    }
+
+	.equipo1,
+	.equipo2,
+	.equipo3,
+	.equipo4,
+	.equipo5,
+	.equipo6,
+	.equipo7,
+	.equipo8 {
+	    width: 100%;
+	    height: 150px;
+	}
+	.text-agencia {
+	    letter-spacing: 2px;
+	    padding: 10px 10px 10px 10px;
+	    font-size: 2em;
+	    text-align: center;
+	}
+	.btnBlueAgencia{
+		padding: 1% 9%;
+		margin: 5% 0% 0% 25%;
+	}
+	.sect8AgenciaWhit,
+	.sect8AgenciaOrang {
+	    font-size: 1em;
+	    padding: 80px 0px 10px 0px;
+	}
+	.piensoCreo-agencia {
+	    margin-left: -42px;
+	    margin-top: 80px;
+	    font-size: 2.2em;
+	    color: #fff;
+	}
 }

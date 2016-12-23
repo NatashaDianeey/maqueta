@@ -7,18 +7,11 @@
 /*mediaquery desktop 2*/
 /*mediaquery desktop 2*/
 /*mediaquery desktop 2*/
-
-/* clases universales*/
-.linea-menu{
-	border: 0.05em solid #f37820;
-	padding-bottom: 0px;
-	margin: 10px 0px 10px 0px;
+*{
+	font-family: "Gotham Book Regular", Helvetica, Arial, sans-serif;
+	line-height: 1.42857143;
+	letter-spacing: 1px;
 }
-.row {
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
 /* HEADER SMALLER*/
 .hvr-back-pulse{
 	vertical-align: none;
@@ -38,12 +31,12 @@ header {
 	-moz-transition: height 0.3s;
 	-ms-transition: height 0.3s;
 	-o-transition: height 0.3s;
-	transition: height 0.3s; 
+	transition: height 0.3s;
 }
 
 header.smaller {
     height: 100px;
-    background-color: #15293e; 
+    background-color: #15293e;
 }
 
 
@@ -55,7 +48,7 @@ header.smaller {
 	z-index: 1000px;
 /* 	text-indent:-99999px; */
 	background: url("img/slider/gamol.png");
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 }
 
 .logotipo {
@@ -69,19 +62,30 @@ header.smaller {
 	text-align: center;
 }
 
-.listIcons {
+.listStyleNone{
 	list-style: none;
 	display: inline;
 	text-decoration: none;
 }
 
+.menubarList{
+	padding: 0px;
+}
+.listMenuBar{
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
 li a {
-	color: #fff;	
+	color: #fff;
 }
 
 li a:hover {
-    color: #f57a0f;	
+    color: #f57a0f;
     text-decoration: none;
+}
+.text-menu-cornerbox{
+	font-size: 1.2em;
 }
 
 .icons {
@@ -108,6 +112,21 @@ li a:hover {
 	margin-left: 15px;
 	color: #000;
 }
+.marg-negat{
+	margin-left: -28%;
+}
+
+/* clases universales*/
+.linea-menu{
+	border: 0.05em solid #f37820;
+	padding-bottom: 0px;
+	margin: 10px 0px 10px 0px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 
 /* menu Bar Right */
 
@@ -128,19 +147,19 @@ span a{
 }
 
 .menu-bar-right {
-	position: absolute;
-	z-index: 1001;
-	width: 320px;
-	height: 100%;
-	background: #15293e;
-	padding:  80px 20px 0px 45px;
-	-webkit-transform: translate3d(320px,0,0);
-	transform: translate3d(320px,0,0);
-	-webkit-transition: -webkit-transform 0.4s;
-	transition: transform 0.4s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-	right: 0px;
+    position: absolute;
+    z-index: 1001;
+    width: 320px;
+    height: 100%;
+    background: #15293e;
+    padding: 80px 0px 0px 40px;
+    -webkit-transform: translate3d(320px,0,0);
+    transform: translate3d(320px,0,0);
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    right: 0px;
 }
 
 
@@ -222,6 +241,7 @@ span a{
 .close-circle-slide{
 	color: #fff;
 	top: 0.5em;
+	left: 0.5em;
 	padding: 0px;
 	font-size: 3em !important;
 }
@@ -270,7 +290,7 @@ overflow-y: scroll;
 	position: absolute;
 	z-index: 1001;
 	width: 340px;
-	height: 410px;
+	height: 430px;
 	background: #15293e;
 	color: #ffffff;
 	padding: 20px 35px;
@@ -278,6 +298,8 @@ overflow-y: scroll;
 	transform: translate3d(0,-1200px,0);
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
+	top: 30px;
+	right: 360px;
 }
 
 /* shown menu phone*/
@@ -310,13 +332,13 @@ overflow-y: scroll;
 
 /* MENU DESPLEGABLE CORNERBOX HEADPHONE */
 a p{
-	color: #fff;	
+	color: #fff;
     text-decoration: none;
 }
 
 a p:hover {
-    color: #f57a0f;	
-    text-decoration: none;   
+    color: #f57a0f;
+    text-decoration: none;
 }
 
 .menu-headphones{
@@ -329,7 +351,7 @@ a p:hover {
 	position: absolute;
 	z-index: 1001;
 	width: 340px;
-	height: 430px;
+	height: 400px;
 	background: #15293e;
 	color: #ffffff;
 	padding: 20px 35px;
@@ -337,6 +359,8 @@ a p:hover {
 	transform: translate3d(0,-1200px,0);
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
+	top: 30px;
+    right: 150px;
 }
 
 /* shown menu headphones*/
@@ -385,6 +409,8 @@ a p:hover {
     transform: translate3d(0,-1200px,0);
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
+    top: 30px;
+    right: 300px;
 }
 
 /* shown menu share-alt*/
@@ -406,19 +432,17 @@ a p:hover {
 	transform: translate3d(0,0,0);
 }
 
-
-.redes{
-	font-size: 1.5em !important;
-	padding: 0.1em;
+.redes {
+    font-size: 1.9em !important;
+    padding: 0em 0.2em 0em 0em;
 }
 
 /* close button share alt*/
-.close-cornerbox-share-alt{
-	color: #fff;
-	top: 0em;
-	left: 170px;
-	padding: 15px 0pc 0px 0px;
-	font-size: 1.9em !important;
+.close-cornerbox-share-alt {
+    color: #fff;
+    top: 2px;
+    left: 155px;
+    font-size: 1.9em !important;
 }
 
 /*importante y no mover nada*/
@@ -456,133 +480,6 @@ a:focus, a:hover {
     background-color: rgba(180, 89, 23, 0.8);
 }
 
-/*Video Principal*/
-.videoPrin {
-	width: 100%;
-	height: 700px;
-	overflow: hidden;
-	position: relative;
-	padding: 0;
-	margin: 0; }
-
-.videoPrin video {
-	position: absolute;
-	width: auto;
-	min-width: 100%;
-	min-height: 100%;
-	height: auto;
-}
-
-.videoPrin img {
-	position: absolute;
-	z-index: 1;
-	left: 50%;
-	top: 50%;
-	height: 100%;
-	width: auto;
-	-webkit-transform: translate(-50%,-50%);
-	-moz-transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%); 
-}
-
-.overlay-video {
-	 width: 100%;
-    height: 100%;
-    position: absolute;
-    background: transparent url("img/gridtile.png") repeat scroll 0% 0%;
-    z-index: 2;
-    padding: 0px;
-    margin: 0px 
-}
-
-.overlay-video3 {
-	 width: 97%;
-    height: 100%;
-    position: absolute;
-    background: transparent url("img/gridtile.png") repeat scroll 0% 0%;
-    z-index: 2;
-    padding: 0px;
-    margin: 0px 
-}
-      
-.visible-desk { 
-	display: block; 
-}
-
-.visible-mobile { 
-	display: none; 
-}
-
-.infoVid {
-    width: 100%;
-    position: absolute;
-    top: 260px;
-    z-index: 4; 
-}	
-
-.infoVid h2, .infoVid h4 {
-    color: #fff;
-    display: block;
-    padding: 5px 20px 5px 15px;
-}
-
-.overlay-video {
-	 width: 100%;
-    height: 100%;
-    position: absolute;
-    background: transparent url("img/gridtile.png") repeat scroll 0% 0%;
-    z-index: 2;
-    padding: 0px;
-    margin: 0px 
-}
-
-
-/* SECTION 1*/ 
-.slogan {
-	color: #fff;
-	font-family: sans-serif;
-	text-align: center;
-}
-
-.estrategias {
-	font-size: 2.2em;
-	padding-top: 11%;
-	font-weight: 100;
-}
-
-.pienso {
-	font-size: 5.3em;
-	font-weight: bold;
-}
-
-.botonHeadphone {
-	background-color: #fff;
-	border-radius: 50px;
-	padding:12px;
-}
-
-.botonMenuBars {
-	background-color: #fff;
-	border-radius: 50px;
-	padding:12px;
-	margin-right: 110px;
-}
-
-.btn:hover {
-    color: #f67b0e;	
-}
-
-.botonConocenos{
-	color: #fff;
-	font-size: 1.4em;
-	font-family: sans-serif;
-	padding: 1% 9%;
-	margin:3% 0% 0% 38%;
-	background-color: transparent;
-	border-radius: 0%;
-	border-color: #f55314;
-}
 
 
 /*-------------------
@@ -590,17 +487,17 @@ a:focus, a:hover {
 ---------------------*/
 /*
 @media (max-width: 1920px){
-	
+
     .menu-wrap-cornerbox-phone{
 		top: 30px;
 		left: 1200px;
 	}
-		
+
 	.menu-wrap-cornerbox-share-alt{
 		top: 30px;
 		left: 1400px;
 	}
-	
+
 	.menu-wrap-cornerbox-headphones{
 		top: 28px;
 		left: 1412px;
@@ -609,8 +506,8 @@ a:focus, a:hover {
 */
 /*
 @media (max-width: 1920x){
-	
-		
+
+
 }
 
 phone
@@ -620,7 +517,7 @@ top: 35px;
 headphones
 top: 30px;
 	left: 1155px;
-	
+
 	share alt
 		top: 35px;
 	left: 1150px;
@@ -633,7 +530,7 @@ top: 30px;
     .menu-wrap-cornerbox-phone{
 		top: 30px;
 		left: 560px;
-	}	
+	}
 	.menu-wrap-cornerbox-share-alt{
 		top: 30px;
 		left: 760px;
@@ -642,10 +539,10 @@ top: 30px;
 		top: 28px;
 		left: 772px;
 	}
-	
-	
-	
-	
+
+
+
+
 }
 
 @media (max-width: 1024px){
@@ -669,7 +566,7 @@ top: 30px;
 	}
 	.fa-phone {
     	margin-left: 0px;
-    } 
+    }
 	.menu-wrap-cornerbox-phone{
 		top: 25px;
 		left: 270px;
@@ -681,9 +578,14 @@ top: 30px;
 	.menu-wrap-cornerbox-headphones{
 		top: 15px;
 		left: 472px;
-	} 
+	}
 }
 */
+@media (max-width: 980px){
+	.pienso h1{
+    	font-size: 4.5em;
+    }
+}
 
 
 @media (max-width: 800px){
@@ -699,18 +601,18 @@ top: 30px;
 		top: 30px;
 		right:380px;
 	}
-	
-	
+
+
 }
 
 
 @media (max-width: 768px){
-	
-	.visible-desk { 
-		display: none; 
+
+	.visible-desk {
+		display: none;
 	}
-	.visible-mobile { 
-		display: block; 
+	.visible-mobile {
+		display: block;
 	}
     .infoVid h2, .infoVid h4 {
 	    padding: 0px 0px;
@@ -724,14 +626,14 @@ top: 30px;
 	    margin-top: 0px;
 	}
 	.close-cornerbox-phone{
-		left: 260px;
+		left: 250px;
 	}
 	.menu-wrap-cornerbox-phone{
 		width: 300px;
 		height: 300px;
 	}
 	.menu-wrap-cornerbox-share-alt{
-		width: 170px;
+		width: 300px;
 	}
 	.menu-wrap-cornerbox-headphones{
 		width: 300px;
@@ -744,13 +646,16 @@ top: 30px;
 		right: 0px !important;
 	}
 	.redes {
-    	font-size: 1.5em !important;
-    }
+	    font-size: 2em !important;
+	    padding: 0em 1em 0em 0em;
+	}
     .icon-list a span {
     	font-size: 13px !important;
-	} 
-    .close-cornerbox-share-alt{
-		left: 140px;
+	}
+
+	.close-cornerbox-share-alt {
+	    left: 240px;
+	    top: 10px;
 	}
 	.menu-headphones {
 	    font-size: 14px;
@@ -758,7 +663,7 @@ top: 30px;
 	    margin-top: 0px;
     }
 	.close-cornerbox-headphones{
-		left: 265px;
+		left: 250px;
 	}
     .menu-bar-right{
 	    width: 240px;
@@ -773,6 +678,12 @@ top: 30px;
     .icon-list a span {
     	font-size: 13px;
     }
+    .pienso h1{
+    	font-size: 4.6em;
+    }
+    .marg-negat {
+	    margin-left: -13%;
+	}
 }
 
 @media (max-width: 640px){
@@ -790,7 +701,7 @@ top: 30px;
 	.botonMenuBars{
 		margin-right: 80px;
 	}
-	.pienso {
+	.pienso h1{
 		margin-left: 0px;
 		padding-bottom: 5px;
 		font-size: 1.8em;
@@ -807,13 +718,13 @@ top: 30px;
 /*	 chroome*/
 
 @media (max-width: 412px){
-	
-	
+
+
 }
 
 @media (max-width: 375x){
-	
-	
+
+
 }
 
 @media (max-width: 414px){
@@ -823,29 +734,29 @@ top: 30px;
 	.botonHeadphone,
 	.botonMenuBars {
     	padding: 6px;
-    } 
+    }
 	.icons {
 		margin: 25px 2px 0px 12px;
 		font-size: 1.4em !important;
 	}
-	.pienso{
+	.pienso h1{
 		margin-left: -10px !important;
-		font-size: 2.3em !important;
+		font-size: 2em !important;
 	}
-   .botonConocenos {
+/*
+   .transparentBtn {
 	    padding: 1% 9%;
 	    margin: 3% 0% 0% 25%;
     }
+*/
     .menu-bar-right {
     	width: 180px;
     	padding: 30px 0px 0px 20px;
     }
 	.close-circle-slide {
     	font-size: 1.5em !important;
-	}	
-	h3 {
-    	font-size: 13px;
 	}
+
     .icon-list a span {
     	font-size: 12px;
 	}
@@ -856,7 +767,7 @@ top: 30px;
     	font-size: 9px;
 	}
 	.redes {
-    	font-size: 1em !important;	
+    	font-size: 1em !important;
     }
 	.close-cornerbox-phone {
     	left: 126px;
@@ -867,7 +778,7 @@ top: 30px;
 	    width: 160px;
 	    height: 250px;
 		padding: 0px 20px;
-	}	
+	}
     .menu-wrap-cornerbox-share-alt {
 		width: 130px;
 		height: 90px;
@@ -907,7 +818,7 @@ top: 30px;
 	}
 	.botonMenuBars {
     	padding: 8px;
-    } 
+    }
     .botonHeadphone {
 
     	padding: 8px;
@@ -915,11 +826,10 @@ top: 30px;
     .botonHeadphone {
 	    padding: 6x;
 	}
-	.botonConocenos {
+	.transparentBtn {
 	    padding: 1% 9%;
-	    margin: 5% 0% 0% 25%;
     }
-	.pienso{
+	.pienso h1{
 		margin-left: -5px !important;
 		font-size: 2em;
 	}
@@ -929,7 +839,7 @@ top: 30px;
 	.infoVid h2, .infoVid h4 {
 	    padding: 0px 0px 15px 0px;
 	    margin: 0px;
-	}	
+	}
     .fa-headphones {
     	margin: 0px !important;
 	}
@@ -939,33 +849,25 @@ top: 30px;
     }
 	.close-circle-slide {
     	font-size: 1.5em !important;
-	}	
+	}
     .fa-headphones {
     	margin: 0px !important;
 	}
 	a p {
-    	font-size: 9px;
-	}
-	.close-cornerbox-phone {
-    	left: 126px;
-		top: 10px;
-		font-size: 1.5em !important;
-	}
-	h3 {
-    	font-size: 13px;
+    	font-size:11px;
 	}
 	.menu-wrap-cornerbox-phone{
-	    width: 160px;
+	    width: 180px;
 	    height: 250px;
 		padding: 0px 20px;
 	}
     .menu-wrap-cornerbox-share-alt {
-		width: 130px;
+		width: 180px;
 		height: 90px;
 		padding: 0px 20px;
 	}
 	.menu-wrap-cornerbox-headphones {
-		width: 170px;
+		width: 180px;
 		height: 230px;
 		padding: 0px 20px;
 	}
@@ -976,16 +878,20 @@ top: 30px;
 		right: 0px !important;
 	}
 	.redes {
-    	font-size: 1em !important;
-    	
+    	font-size: 1.6em !important;
+		padding: 0em 0.6em 0em 0em;
     }
     .close-cornerbox-share-alt {
-    	left: 100px;
-    	font-size: 1.5em !important;
-    }
-	.close-cornerbox-headphones {
     	left: 135px;
     	font-size: 1.5em !important;
+    }
+    .close-cornerbox-phone,
+	.close-cornerbox-headphones {
+    	left: 146px;
+    	font-size: 1.5em !important;
+	}
+	.marg-negat {
+	    margin-left: -28%;
 	}
 }
 
@@ -997,18 +903,17 @@ top: 30px;
 	.botonHeadphone,
 	.botonMenuBars {
     	padding: 6px;
-    } 
+    }
 	.icons {
 		margin: 25px 2px 0px 12px;
 		font-size: 0.9em !important;
 	}
-	.pienso{
+	.pienso h1{
 		margin-left: -10px !important;
 		font-size: 1.8em !important;
 	}
-   .botonConocenos {
+	.transparentBtn {
 	    padding: 1% 9%;
-	    margin: 3% 0% 0% 25%;
     }
     .menu-bar-right {
     	width: 180px;
@@ -1016,9 +921,6 @@ top: 30px;
     }
 	.close-circle-slide {
     	font-size: 1.5em !important;
-	}	
-	h3 {
-    	font-size: 13px;
 	}
     .icon-list a span {
     	font-size: 12px;
@@ -1030,18 +932,14 @@ top: 30px;
     	font-size: 9px;
 	}
 	.redes {
-    	font-size: 1em !important;	
+    	font-size: 1.3em !important;
+    	padding: 0em 0.2em 0em 0em;
     }
-	.close-cornerbox-phone {
-    	left: 126px;
-		top: 10px;
-		font-size: 1.5em !important;
-	}
 	.menu-wrap-cornerbox-phone{
-	    width: 160px;
+	    width: 165px;
 	    height: 250px;
 		padding: 0px 20px;
-	}	
+	}
     .menu-wrap-cornerbox-share-alt {
 		width: 130px;
 		height: 90px;
@@ -1058,11 +956,20 @@ top: 30px;
 		right: 0px !important;
 	}
     .close-cornerbox-share-alt {
-    	left: 97px;
+    	left: 90px;
+    	top: 5px;
     	font-size: 1.5em ;
     }
+	.close-cornerbox-phone {
+		left: 136px;
+		top: 10px;
+		font-size: 1.5em !important;
+	}
 	.close-cornerbox-headphones {
-    	left: 135px;
+    	left: 145px;
     	font-size: 1.5em !important;
+	}
+	.marg-negat {
+	    margin-left: -40%;
 	}
 }

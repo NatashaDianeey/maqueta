@@ -1,38 +1,38 @@
-		
+
 		        </main><!-- end.Main -->
-		
+
 		        <footer>
-					<div class="container-fluid back6">
-			        	<div class="container">
-							<div class="row white">
-								<div class="col-md-2 col-sm-12">
-									<img src="img/assets/gamol.png">
-								</div>
-								<div class="col-md-2 col-sm-12">
-									<ul>
-										<li class="liFooter"><a href="agencia" target="_blank">Agencia</a></li>
-										<li class="liFooter"><a href="" target="_blank">Servicios</a></li>
-										<li class="liFooter"><a href="" target="_blank">Proyectos</a></li>
-										<li class="liFooter"><a href="sumate" target="_blank">Súmate</a></li>
-									</ul>
-								</div>
-								<div class="col-md-2 col-sm-12">
-									<ul>
-										<li class="liFooter"><a href="" target="_blank">Soporte técnico</a></li>
-										<li class="liFooter"><a href="blog" target="_blank">Blog</a></li>
-										<li class="liFooter"><a href="contacto" target="_blank">Contacto</a></li>
-										<li class="liFooter"><a href="" target="_blank">Aviso de privacidad</a></li>
-									</ul>
-								</div>
-								<div class="col-md-4 col-sm-12">
-									<p class="white">Av. Horacio No.1844, piso 10 Esq.Periférico, Col. Los Morales Polanco,C.P.11510,México DF.<br>tel. +52 (55) 5262 9393 | 01800 00 GAMOL (42665) | contacto@gamol.com.mxg<br><br>Gamol © 2016 Todos los derechos reservados.</p>
-								</div>
-								<div class="col-md-2 col-sm-12">
-									<img class="mt-8" src="img/assets/cmmi_blue.png">
+					<div class="container-fluid">
+						<div class="row white">
+							<div class="col-md-2 col-sm-12 col-xs-12">
+								<img class="logoGamol-footer" src="img/assets/gamol.png">
+							</div>
+							<div class="col-md-2 col-sm-12 col-xs-12">
+								<ul>
+									<li class="liFooter"><a href="agencia" target="_blank">Agencia</a></li>
+									<li class="liFooter"><a href="" target="_blank">Servicios</a></li>
+									<li class="liFooter"><a href="" target="_blank">Proyectos</a></li>
+									<li class="liFooter"><a href="sumate" target="_blank">Súmate</a></li>
+								</ul>
+							</div>
+							<div class="col-md-2 col-sm-12 col-xs-12">
+								<ul>
+									<li class="liFooter"><a href="" target="_blank">Soporte técnico</a></li>
+									<li class="liFooter"><a href="blog" target="_blank">Blog</a></li>
+									<li class="liFooter"><a href="contacto" target="_blank">Contacto</a></li>
+									<li class="liFooter"><a href="" target="_blank">Aviso de privacidad</a></li>
+								</ul>
+							</div>
+							<div class="col-md-4 col-sm-12 col-xs-12">
+								<div class="textFooter">
+									<p>Av. Horacio No.1844, piso 10 Esq.Periférico, Col. Los Morales Polanco,C.P.11510,México DF, tel. +52 (55) 5262 9393 | 01800 00 GAMOL (42665) | contacto@gamol.com.mxg.</p> 									<p>Gamol © 2016 Todos los derechos reservados.</p>
 								</div>
 							</div>
-			        	</div> 	
-		          	</div>  
+							<div class="col-md-2 col-sm-12 col-xs-12">
+								<img class="logoCmmi" src="img/assets/cmmi_blue.png">
+							</div>
+			        	</div>
+		          	</div>
 		        </footer>
 			</div><!-- /content-wrap -->
 		</div><!-- /containerPrincipal -->
@@ -57,7 +57,7 @@
         <script src="<?php echo get_template_directory_uri(''); ?>js/scripts/<?php echo $_GET['sec'].'.js'; ?>"></script>
         <?php } else { ?>
         <script src="<?php echo get_template_directory_uri(''); ?>js/scripts/default.js"></script>
-        
+
         <?php } ?><!-- ScriptCustom -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

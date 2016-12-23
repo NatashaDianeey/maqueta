@@ -46,8 +46,8 @@ require_once('functions.php');
 
 
 
-        
-        
+
+
         <!-- Componentes -->
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/components/animate.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(''); ?>css/components/font-awesome.min.css">
@@ -61,28 +61,28 @@ require_once('functions.php');
         <![endif]-->
     </head>
     <body>
-	    <div class="background-containerFluid content-wrap">
+	    <div class="content-wrap">
 			<div class="content">
 		        <header>
-			       	<div class="container-fluid">
+			        <div class="container-fluid">
 			        	<div class="row">
 			        		<div class="navbar-brand">
 						        <a href="inicio"><img class="icon" src="img/slider/gamol.png"></a>
 			        		</div>
 					        <ul class="navbar-right navegadorHeader">
-				                <li class="listIcons">
+				                <li class="listStyleNone">
 				                	<a href="#" class="icons fa fa-phone hvr-bounce-in" id="cornerbox-phone"></a>
 				                </li>
-				                <li class="listIcons">
+				                <li class="listStyleNone">
 				                	<a href="#" class="icons fa fa-share-alt hvr-bounce-in" id="cornerbox-share-alt"></a>
 				                </li>
-				                <li class="listIcons">
+				                <li class="listStyleNone">
 				                	<a href="#" class="icons icon-idioma hvr-bounce-in">EN</a>
 				                </li>
-				                <li class="listIcons">
+				                <li class="listStyleNone">
 				                	<a href="#" class="icons botonHeadphone fa fa-headphones hvr-bounce-in hvr-back-pulse" id="cornerbox-headphones"></a>
 				                </li>
-				                <li class="listIcons">
+				                <li class="listStyleNone">
 				                	<a href="#" class="icons botonMenuBars fa fa-bars hvr-bounce-in hvr-back-pulse" id="open-button"></a>
 				                </li>
 				            </ul>
@@ -91,33 +91,40 @@ require_once('functions.php');
 			    </header>
 			    <!-- Menu slide Right-->
 			    <div class="menu-bar-right">
-					<nav class="">
+					<nav>
 						<div class="icon-list">
-							<a href="agencia" target="_blank">
-								<span>Agencia</span>
-								<hr class="linea-menu">
-							</a>
-							<a href="#" target="_blank">
-								<span>Servicios</span>
-								<hr class="linea-menu">
-							</a>
-							<a href="#" target="_blank">
-								<span>Portafolio</span>
-								<span class="badge pull-right">2 Nuevos</span>
-								<hr class="linea-menu">
-							</a>
-							<a href="sumate" target="_blank">
-								<span>Súmate</span>
-								<span class="badge pull-right">10 Nuevos</span>
-								<hr class="linea-menu">
-							</a>
-							<a href="contacto" target="_blank">
-								<span>Contácto</span>
-								<hr class="linea-menu">
-							</a>
-							<a href="#" target="_blank">
-								<span>Soporte técnico</span>
-							</a>
+							<ul class="menubarList">
+								<li class="listStyleNone">
+									<a href="agencia" class="listMenuBar">Agencia
+										<hr class="linea-menu">
+									</a>
+								</li>
+								<li class="listStyleNone">
+									<a href="#" class="listMenuBar">Servicios
+										<hr class="linea-menu">
+									</a>
+								</li>
+								<li class="listStyleNone">
+									<a href="#" class="listMenuBar">Portafolio
+										<span class="badge pull-right">2 Nuevos</span>
+										<hr class="linea-menu">
+									</a>
+								</li>
+								<li class="listStyleNone">
+									<a href="sumate" class="listMenuBar">Súmate
+										<span class="badge pull-right">10 Nuevos</span>
+										<hr class="linea-menu">
+									</a>
+								</li>
+								<li class="listStyleNone">
+									<a href="contacto" class="listMenuBar">Contacto
+										<hr class="linea-menu">
+									</a>
+								</li>
+								<li class="listStyleNone">
+									<a href="#" class="listMenuBar">Soporte técnico</a>
+								</li>
+							</ul>
 						</div>
 					</nav>
 					<button class="btn fa fa-times-circle-o close-circle-slide hvr-bounce-out" id="close-button"></button>
@@ -126,24 +133,34 @@ require_once('functions.php');
 				<div class="menu-wrap-cornerbox-phone">
 					<nav class="menu-cornerbox-phone">
 						<div class="icon-list-cornerbox-phone">
-							<h3>Mesa de ayuda</h3>
 							<div>
+								<div class="menu-phone">
+									<h5>Mesa de ayuda</h5>
+								</div>
 								<hr class="linea-menu">
-								<a href="#">
+								<div class="text-menu-cornerbox">
 									<p>+52 (55) 5262 9393 ext.000</p>
-								</a>
+								</div>
 							</div>
 							<div>
-								<h5 class="menu-phone">Ventas</h5>
+								<div class="menu-phone">
+									<h5>Ventas</h5>
+								</div>
 								<hr class="linea-menu">
-								<a href="#"><p>+52 (55) 5262 9393</p>
-								<p>01800 823 0618</p></a>
+								<div class="text-menu-cornerbox">
+									<p>+52 (55) 5262 9393</p>
+									<p>01800 823 0618</p>
+								</div>
 							</div>
 							<div>
-								<h5 class="menu-phone">Comutador</h5>
+								<div class="menu-phone">
+									<h5>Comutador</h5>
+								</div>
 								<hr class="linea-menu">
-								<a href="#"><p>+52 (55) 5262 9393</p>
-								<p>01800 823 0618</p></a>
+								<div class="text-menu-cornerbox">
+									<p>+52 (55) 5262 9393</p>
+									<p>01800 823 0618</p>
+								</div>
 							</div>
 						</div>
 					</nav>
@@ -153,25 +170,37 @@ require_once('functions.php');
 				<div class="menu-wrap-cornerbox-headphones">
 					<nav class="menu-cornerbox-headphones">
 						<div class="icon-list-cornerbox-headphones">
-							<h3>Soporte Técnico</h3>
+							<h4>Soporte Técnico</h4>
 							<div>
-								<h5 class="menu-headphones">Télefono</h5>
+								<div class="menu-headphones">
+									<h5>Télefono</h5>
+								</div>
 								<hr class="linea-menu">
-								<a href="#"><p> +52 (55) 5262 9393 ext.000</p></a>
+								<div class="text-menu-cornerbox">
+									<p> +52 (55) 5262 9393 ext.000</p>
+								</div>
 							</div>
 							<div>
-								<h5 class="menu-headphones">Chat</h5>
+								<div class="menu-headphones">
+									<h5>Chat</h5>
+								</div>
 								<hr class="linea-menu">
-								<a href="#"><p>
-									<i class="fa fa-comments"></i>&nbsp;Iniciar Chat		
-								</p></a>
+								<div class="text-menu-cornerbox">
+									<a href="#">
+										<p><i class="fa fa-comments"></i>&nbsp;Iniciar Chat</p>
+									</a>
+								</div>
 							</div>
 							<div>
-								<h5 class="menu-headphones">Ticket</h5>
+								<div class="menu-headphones">
+									<h5>Ticket</h5>
+								</div>
 								<hr class="linea-menu">
-								<a href="#"><p> 
-									<i class="fa fa-ticket" aria-hidden="true"></i>&nbsp;Generar ticket
-								</p></a>
+								<div class="text-menu-cornerbox">
+									<a href="#">
+										<p><i class="fa fa-ticket" aria-hidden="true"></i>&nbsp;Generar ticket</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</nav>
@@ -181,14 +210,24 @@ require_once('functions.php');
 			    <div class="menu-wrap-cornerbox-share-alt">
 					<nav class="menu-cornerbox-share-alt">
 						<div class="icon-list-cornerbox-share-alt">
-							<h3>Siguenos</h3>
-							<hr class="linea-menu">
-							<ul>
-								<li><a href="https://www.facebook.com/GamolWeb/" target="_blank"><span class="redes fa fa-facebook"></span></a></li>
-								<li><a href="#" target="_blank"><span class="redes fa fa-github"></span></a></li>
-								<li><a href="https://www.linkedin.com/company/gamol" target="_blank"><span class="redes fa fa-linkedin"></span></a></li>
-								<li><a href="https://twitter.com/gamolweb" target="_blank"><span class="redes fa fa-twitter"></span></a></li>
-							</ul>
+							<h4>Síguenos</h4>
+							<div>
+								<hr class="linea-menu">
+								<ul class="marg-negat">
+									<li class="listStyleNone">
+										<a href="https://www.facebook.com/GamolWeb/" target="_blank"><span class="redes fa fa-facebook"></span></a>
+									</li>
+									<li class="listStyleNone">
+										<a href="#" target="_blank"><span class="redes fa fa-github"></span></a>
+									</li>
+									<li class="listStyleNone">
+										<a href="https://www.linkedin.com/company/gamol" target="_blank"><span class="redes fa fa-linkedin"></span></a>
+									</li>
+									<li class="listStyleNone">
+										<a href="https://twitter.com/gamolweb" target="_blank"><span class="redes fa fa-twitter"></span></a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</nav>
 					<button class="btn fa fa-times-circle-o close-cornerbox-share-alt hvr-bounce-out" id="close-button-cornerbox-share-alt"></button>

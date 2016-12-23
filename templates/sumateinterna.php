@@ -2,12 +2,10 @@
 		<div class="container-fluid backgroundSumate">
 			<div class="row bckBlack">
 				<div class="col-xs-12 text-center">
-			        <div class="infoVid" data-wow-delay="0.3s">
-				        <div class="container">
-					        <div class="row">
-								<h3 class="hiGamol">hi@gamol.com.mx</h3>
-							</div>
-				        </div>
+			        <div class="container">
+				        <div class="row">
+							<h3 class="hiGamol">hi@gamol.com.mx</h3>
+						</div>
 					</div>
 	        	</div>
 	        </div>
@@ -40,13 +38,13 @@
 							<p><strong>Edad:</strong> 22 en adelante</p>
 							<p><strong>Experiencia:</strong> 1 a 2 años mínimo</p>
 							<p><strong>Sexo:</strong> Indistinto</p>
-							
+
 							<p>Descripción:</p>
 							<ul class="textLista">
 								<li>Planeación, medición, ejecución y supervisión de estrategias digitales.</li>
 								<li>Responsable de la creación y seguimiento de las redes sociales de clientes.</li>
 							</ul>
-							
+
 							<p>Conocimiento requerido:</p>
 							<ul class="textLista">
 								<li class="listtext">Manejo de redes sociales: Facebook, Twitter, Linkedin, Instagram, Youtube, Vine, Pinterest.</li>
@@ -56,7 +54,7 @@
 								<li>Creación de campañas en Facebook, Twitter y Youtube.</li>
 								<li>Capacidad para mantener conversaciones y envió de comunicaciones en ingles.</li>
 							</ul>
-							
+
 							<p>Habilidades:</p>
 							<ul class="textLista">
 								<li>Habilidad creativa para desarrollar ideas y estrategias.</li>
@@ -69,7 +67,7 @@
 								<li>Trabajo bajo presión.</li>
 								<li>Trabajo en equipo.</li>
 							</ul>
-							
+
 							<p>Responsabilidades:</p>
 							<ul class="textLista">
 								<li>Cumplimiento de metas y objetivos.</li>
@@ -112,7 +110,6 @@
 									<label>WEBSITE / PORTAFOLIO / LINKEDIN</label>
 									<input type="text" class="form-control">
 								</div>
-								
 								<div class="form-group">
 									<label>*CUÉNTANOS SOBRE TI</label>
 									<input type="text" class="form-control">
@@ -140,7 +137,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-8 offset-md-4">
-								<button type="submit" class="btn btn-enviar-sumate">Enviar</button>
+								<button type="submit" class="orangeBtn btn-enviar-sumate hvr-grow-shadow">Enviar</button>
 							</div>
 						</div>
 					</div>
@@ -150,7 +147,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12">
-							<button type="submit" class="btn btn-reg-vac">Regresar a vacantes</button>
+							<button type="submit" class="orangeBtn btn-reg-vac hvr-grow-shadow">Regresar a vacantes</button>
 						</div>
 					</div>
 				</div>
@@ -162,7 +159,7 @@
 							<h3  class="buscaTalento">¡Siempre en busca de nuevos talentos!</h3>
 							<p class="textEnviaCV">Si estas interesado en una posición que no esta abierta,
 							envíanos tu CV a través de nuestro correo.</p>
-							<button type="submit" class="btn btn-env-cv">Enviar mi C.V.</button>
+							<button type="submit" class="blueBtn hvr-grow-shadow">Enviar mi C.V.</button>
 						</div>
 					</div>
 				</div>

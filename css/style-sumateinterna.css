@@ -14,13 +14,13 @@
 }
 /* Background image&color- header contact*/
 .backgroundSumate{
-	background-image: url("../img/background-sumate.jpg");
+	background-image: url("../img/bgs/background-sumate.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	width: 100%;
 	height: 450px;
-}	
+}
 
 .bckBlack{
 	background-color: rgba(0, 0, 0, 0.5);
@@ -44,17 +44,17 @@
 }
 .lineaContact {
     border: 1px solid #f37820;
-    width: 25%;
+    width: 5%;
     margin-top: 10px;
     margin-bottom: 15px;
 }
-
+.sloganAgencia,
 .sloganSumate{
 	color: #15293e;
 	font-size: 1.3em;
 	letter-spacing: 2px;
 }
-   
+
 /* section box-blue*/
 
 .bckColorSumate {
@@ -124,26 +124,17 @@ strong {
     box-shadow: 5px 5px 5px rgba(24, 24, 24, .5);
 }
 
-.btn-reg-vac,
 .btn-enviar-sumate {
-    background-color: #f37820;
-    border: 0px solid transparent;
-    border-radius: 0px;
     margin-left: 300px;
-    padding: 1.5em 4em;
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: 1px;
     margin-top: -35px;
-    box-shadow: 5px 5px 15px rgba(24, 24, 24, 0.59);
 }
 
 .btn-reg-vac {
     margin: 35px -30px;
 }
 /* Backg section*/
-.backgroud-Image{	
-	background-image: url("../img/backg.jpg");
+.backgroud-Image-White{
+	background-image: url("../img/bgs/backg.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -151,7 +142,7 @@ strong {
 }
 
 .backgroud-White {
-    background: rgba(255, 255, 255, 0.83);
+    background-color: #fff;
     width: 100%;
     height: 260px;
 }
@@ -169,11 +160,6 @@ strong {
 	background-position: center;
 	background-size: cover;
 }
-.back-oran{
-	background:rgba(243, 120, 32, 0.8);
-	width: 100%;
-	margin: 0px;
-}
 .buscaTalento{
 	color: #15293e;
 	font-size: 2.6em;
@@ -190,13 +176,52 @@ strong {
     padding: 1em 4em;
     color: #fff;
     font-size: 1.4em;
-    margin: 40px 0px 40px 0px; 
+    margin: 40px 0px 40px 0px;
     font-weight: 300;
     letter-spacing: 1px;
     box-shadow: 5px 5px 15px rgba(24, 24, 24, 0.7);
 }
-
-@media (max-width: 600px) {
+@media (max-width: 1920px) {
+	.boxCaptcha {
+	    padding: 20px 0px 10px 10px;
+	}
+}
+@media (max-width: 1280px) {
+	.boxCaptcha {
+	    padding: 20px 0px 10px 10px;
+	}
+	.box-white-sumate {
+	    padding: 80px 60px;
+    }
+}
+@media (max-width: 980px) {
+	.btn-enviar-sumate {
+	    margin-left: 460px;
+	    margin-top: -30px;
+	}
+}
+@media (max-width: 800px) {
+	.box-white-sumate {
+	    padding: 50px 80px;
+	}
+	.boxCaptcha {
+	    padding: 20px 0px 10px 10px;
+	}
+	.btn-enviar-sumate {
+	    margin-left: 460px;
+	    margin-top: -30px;
+	}
+}
+@media (max-width: 768px) {
+	.box-white-sumate {
+	    padding: 40px 70px;
+	}
+	.btn-enviar-sumate {
+	    margin-left: 460px;
+	    margin-top: -30px;
+	}
+}
+@media (max-width: 640px) {
 
 	.backgroundSumate {
 	    background-size: inherit;
@@ -208,6 +233,7 @@ strong {
 	.bckColorSumate{
 		padding: 3%;
 		margin: 5% 3%;
+		box-shadow: 10px 10px 5px #88888880;
 	}
 	.hiGamol {
 	    margin-left: -72px;
@@ -226,7 +252,7 @@ strong {
 	    font-size: 2em;
 	    padding: 10px 0px 0px 0px;
 	}
-	
+
 	.communManager {
 	    color: #fff;
 	    font-size: 1.4em;
@@ -236,7 +262,7 @@ strong {
 	}
 	.perfil {
         font-size: 1em;
-		padding-top: 5px;	
+		padding-top: 5px;
     }
 	.contPerfil ul li {
 	    font-size: 0.8em;
@@ -247,7 +273,7 @@ strong {
     .contOfrec ul li {
 	    font-size: 0.8em;
     }
-    .ofrecemos, 
+    .ofrecemos,
     .envianos {
     	font-size: 1em;
     }
@@ -257,6 +283,7 @@ strong {
 	.box-white-sumate {
 		margin: 20px -10px 50px -10px;
 	    padding: 40px 35px;
+	    box-shadow: 10px 6px 10px #FFF3;
 	}
 	.btn-reg-vac {
 		margin: 35px -20px;
@@ -284,14 +311,20 @@ strong {
 	    font-weight: 300;
 	    letter-spacing: 1px;
 	}
-    
+
 }
 
-@media (min-width: 850px) {
+@media (min-width: 414px) {
 
-	.box-white-sumate {
-	    padding: 50px 30px;
+}
+@media (max-width: 360px) {
+	.btn-enviar-sumate {
+	    margin-top: -90px;
 	}
-	.boxCaptcha {
-	    padding: 20px 0px 10px 10px;
+}
+@media (max-width: 320px) {
+	.btn-enviar-sumate{
+	    margin-top: -100px;
 	}
+
+}

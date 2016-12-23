@@ -17,37 +17,171 @@
 /*mediaquery desktop 2*/
 /*mediaquery desktop 2*/
 
+/*Video Principal*/
+.videoPrin {
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	margin: 0; }
 
-/*BULLETS*/
-.bx-wrapper, .bx-wrapper, a.active {
-    background: #f26522 !important;
+.videoPrin video {
+	position: absolute;
+	width: auto;
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
 }
 
-.default-pager a.active {
-    background: #162a40 !important;
+.videoPrin img {
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	width: auto;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
 }
-.bx-wrapper .bx-pager{
-    text-align: left !important;
-    font-size: .85em;
-    font-family: Arial;
-    font-weight: bold;
-    color: #666;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    background-color: #15283c;
+
+.overlay-video {
+	 width: 100%;
+    height: 100%;
     position: absolute;
-    bottom: -20px;
-    left: 35px;
-    width:15% !important;
+    background: transparent url("img/gridtile.png") repeat scroll 0% 0%;
+    z-index: 2;
+    padding: 0px;
+    margin: 0px
 }
 
-span:hover{
-	text-decoration: none;
+.overlay-video3 {
+	width: 97%;
+    height: 100%;
+    position: absolute;
+    background: transparent url("img/gridtile.png") repeat scroll 0% 0%;
+    z-index: 2;
+    padding: 0px;
+    margin: 0px
 }
+
+.visible-desk {
+	display: block;
+}
+
+.visible-mobile {
+	display: none;
+}
+
+.infoVid {
+    width: 100%;
+    position: absolute;
+    top: 260px;
+    z-index: 4;
+}
+
+.infoVid h2, .infoVid h4 {
+    color: #fff;
+    display: block;
+    padding: 5px 20px 5px 15px;
+}
+
+.overlay-video {
+	 width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent url("img/gridtile.png") repeat scroll 0% 0%;
+    z-index: 2;
+    padding: 0px;
+    margin: 0px
+}
+
+/*unive*/
+
+.backRelative  {
+	width: 100%;
+	height: auto;
+	position: relative; 
+}
+.backRelative img {
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	width: auto;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.contTransf {
+	width: 100%;
+    position: absolute;
+	top: 1100px;
+	
+}
+
+/* SECTION 1*/
+
+.estrategias {
+	font-size: 2.2em;
+	font-weight: 100;
+}
+
+.pienso h1{
+	color: #fff;
+	font-size: 5.3em;
+	font-weight:600;
+}
+
+.transparentBtn{
+	background-color: transparent;
+	border-radius: none;
+	border: 2px solid #f55314;
+	color: #fff;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    padding: 0.8em 4em 0.8em 4em;
+}
+
+
+.botonHeadphone {
+	background-color: #fff;
+	border-radius: 50px;
+	padding:12px;
+}
+
+.botonMenuBars {
+	background-color: #fff;
+	border-radius: 50px;
+	padding:12px;
+	margin-right: 110px;
+}
+
+.btn:hover {
+    color: #f67b0e;
+}
+
+/* SECTION 2 contadores*/
+.backContadores p span {
+	font-size: 2em;
+	color:#f37820;
+}
+.backContadores{
+    background-image: url("../img/bgs/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	width: 50%;
+	height: 130px;
+	padding-top: 18%;
+	margin-top: 20px;
+}
+
 /*PUNTERO CON HOVER*/
-
-
 .hvr-bubble-bottom:before {
     pointer-events: none;
     position: fixed;
@@ -57,13 +191,13 @@ span:hover{
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     -webkit-transition-property: transform;
-    transition-property: transform; 
+    transition-property: transform;
     border-width: 40px 90px 0px 90px !important;
 	top: 210px;
 	left: calc(20% - 10px)!important;
 
     border-color: white transparent transparent transparent !important;
-   
+
 }
 
 .hvr-bubble-bottom:active:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:hover:before {
@@ -86,7 +220,7 @@ span:hover{
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 4px transparent;
     position: relative;
-    
+
 }
 [class^="hvr-"] {
     margin: .4em;
@@ -111,108 +245,211 @@ span:hover{
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     border-radius: 50%;
- 
-}
-/* seccion contadores*/
-.backContadores{
-    background-image: url("../img/bgs/back1.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover; 
-	width: 50%;
-	height: 130px;
-	padding-top: 18%;	
+
 }
 
-.textContadores{
-	color:#f26522;
-	font-size:2em;	
-}
-.encabInicioHacemos{	
+/*SECTION 3 Lo que hacemos*/
+.whiteEncabezados h2{
+	font-size: 4.4em;
+	font-weight: 600;
 	color: #fff;
-	font-size: 4em;
-	font-weight: 600;
+    margin-top: 60px;
 }
-.encabInicioAzul{
-	font-size: 4em;
-	font-weight: 600;
-	color: #15283c;
-	margin-top: 60px;
-}
-.lineaInicioEncabezadosWhite,
-.lineaInicioEncabezados{
+.lineaEncabezados{
 	border: 1px solid #f37820;
     width: 10%;
     margin-top: 20px;
     margin-bottom: 35px;
 }
-
-.lineaInicioEncabezadosWhite{
-	border: 1px solid #fff;
+.textConten p{
+	margin-top: 15px;
+	margin-bottom: 35px;
+	color: #fff;
+    font-weight: 200;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px #000;
 }
-.encabIconos{
+/* Section BXSLIDER*/
+.bx-wrapper, .bx-wrapper, a.active {
+    background: rgba(0,0,0,0);
+}
+a.active{
+	background: #f26522 !important;
+
+}
+.default-pager a.active {
+    background: #162a40 !important;
+}
+.bx-wrapper .bx-pager{
+    text-align: left !important;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	background-color: #15293e;
+	position: absolute;
+	bottom: -20px;
+	left: 0px;
+	width: 15% !important;
+	z-index: 4;
+	transform: translate(280%,0%);
+}
+
+span:hover{
+	text-decoration: none;
+}
+
+/*SECTION 4 col6*/
+.azulEncabezados h2{
+	text-align: center;
+	font-size: 6em;
+	font-weight: 600;
+	color: #15283c;
+	margin-top: 80px;
+}
+.btn3{
+	padding:1em;
+	background-color:white;
+	border: 2px solid black;
+	position: relative;
+	margin-left: 110px;
+}
+
+.lineaEncabezadosWhite{
+	border: 1px solid #fff;
+	width: 10%;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.encabIconos h5{
 	font-size: 1.8em;
 	letter-spacing: 1px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
-.encabezadoContadores{
-	font-size: 1.8em;
+.text-blog,
+.text-icons p,
+.textComenzar p,
+.textContratanos p,
+.textInicioTrabj p{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 1.4em;
+	padding: 0px 110px;
+	line-height: 33px;
 }
 
-.text-icons,
-.textComenzar,
-.textContactanos,
-.textInicioTrabj{
-	margin-top: 40px;
-	margin-bottom: 40px;
-	font-size: 1.3em;
+
+.orangeBtn {
+    color: #fff;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    padding: 0.8em 3em 0.8em 3em;
+    background-color: #f37820;
+    border: none;
+    margin: 30px 0px 30px 0px;
+}
+.orangeBtn:hover{
+	color: #15293E;
 }
 
-.textInicioHacms{
+.blueBtn {
+    color: #fff;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    padding: 0.8em 3em 0.8em 3em;
+    background-color: #15293E;
+    border: none;
+    margin: 30px 0px 30px 0px;
+}
+.blueBtn:hover{
+	color: #f37820;
+}
+.white{
+	color: #fff;
+}
+.orange_light{
+	color:#f37820;
+}
+.gray{
+	color:#d9d7d7;
+}
+.bloqueSeo{
+	border-right: 2px solid #000;
+	margin-top: 80px;
+}
+
+/*
+.bloqueComenzar{
+	padding: 20px 50px;
+}
+*/
+
+
+.marg-box{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+
+.whiteEncabezados h2{
+	font-size: 4.4em;
+	font-weight: 600;
+	color: #fff;
+    margin-top: 60px;
+}
+.lineaEncabezados{
+	border: 1px solid #f37820;
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.textInicioHacms p{
 	margin-top: 15px;
 	margin-bottom: 35px;
 	color: #fff;
     font-weight: 200;
     font-size: 1.5em;
 }
-.btnCotiz, 
-.btn1 {
-    color: #fff;
-    font-size: 1.3em;
-    letter-spacing: 1px;
-    padding: 0.8em 4em 0.8em 3em;
-    background-color: #ff955a;
-    border: none;
-    margin: 30px 0px 30px 0px;
+/*SECTION 5*/
+.icon1 {
+	width: 50%;
 }
-.btnCotiz{
-	margin-left: -570px
+.icon2 {
+	width: 54%;
 }
-.white{
-	color: #fff;
+.icon3{
+	width: 56%;
 }
-.orange_light{
-	color:#f38d4d;	
+.icon4{
+	width: 35%;
 }
-.gray{
-	color:#d9d7d7;
+.icon5{
+	width: 48%;
 }
-.bloqueSeo{
-	padding: 20px 50px;
-	border-right: 2px solid #000;
+.icon6{
+	width: 56%;
 }
-.bloqueComenzar{
-	padding: 20px 50px;
+.icon7{
+	width: 44%;
+}
+.icon8{
+	width: 49%;
+}
+.icon9{
+	width: 49%;
 }
 
-.marg-box{
-	margin-top: 80px;
-}
 /*BACKS*/
 .back1{
-    background-image: url("../img/bgs/back1.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover; 
+	background-image: url("../img/bgs/back1.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	width: 100%;
+	height: auto;
 	padding-top: 125px;
     padding-bottom: 125px;
 }
@@ -223,11 +460,11 @@ span:hover{
     background-size: cover;
 }
 .backColorOrange{
-	background: rgba(255, 147, 89, 0.5);
-	padding: 20px 0px 100px 0px;
+	background: rgba(243, 120, 32, 0.8);
+	padding: 20px 0px 60px 0px;
 }
 .back4{
-	background-color:#aca9a9;
+	background-color:#aba8a8;
 	width: 100%;
 	height: auto;
 }
@@ -251,7 +488,7 @@ span:hover{
     padding-top: 30px;
 }
 .bordeVertical{
-	border-right: 2px solid #a0a0a0; 
+	border-right: 2px solid #a0a0a0;
 	height:240px;
 }
 /*BUTTONS*/
@@ -261,102 +498,230 @@ span:hover{
 	border: none;
 }
 .btnBlog{
-	color: #fff;
-	padding: 1em 7em 1em 7em;
-	background-color: #15283c;
-	border: none;
-	font-size: 1.1em;
-	letter-spacing: 1px;
+	padding:0.7em 5em 0.7em 5em;
+}
+.btn4{
+	margin-left: 110px;
 }
 
-.btn3{
-	padding:1em;
-	background-color:white;
-	border: 2px solid black;
-	position: relative;
-}
 
 .logo{
 	width: 2%;
 }
-/*MEDIASQUERIES*/
 
-@media only screen and (min-width : 320px) and (max-width : 480px) {  
-	  /* seccion lo que hacemos*/   
-	.back1{
-	    background-image: url("../img/bgs/back1.jpg"); 
-	    background-repeat: no-repeat;
-	    background-size: cover; 
-		padding-top: 60px;
-	    padding-bottom: 60px;
+
+h1{
+	font-size: 60px;
+}
+h2{
+	font-size: 50px;
+}
+h3{
+	font-size: 30px;
+}
+h4{
+	font-size: 24px;
+}
+h5{
+	font-size: 21px;
+}
+h6{
+	font-size: 18px;
+}
+p{
+	font-size: 16px;
+}
+.azulencabLeft h2{
+    font-size: 6em;
+    font-weight: 600;
+    color: #15283c;
+    margin-top: 80px;
+	text-align: left;
+	margin-left: 110px;
+}
+
+@media (max-width: 1280px){
+	.bx-wrapper .bx-pager {
+	    width: 20% !important;
 	}
-	.btn1{
-		padding: 0.7em 1.5em 0.7em 1.5em;
-		background-color: #ff955a;
-		border: none;
-	}
-	#trabajamos{
-		text-align: center;
-	}
-	.btn3{
-		padding:1em;
-		background-color:white;
-		border: 2px solid black;
-		position: relative;
-		margin-bottom: 50px;
-	}
-	.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
-	    background: #f26522 !important;
-	}
-	.default-pager a.active {
-	    background: #162a40 !important;
-	}
-	.bx-wrapper .bx-pager{
-	    text-align: left !important;
-	    font-size: .85em;
-	    font-family: Arial;
-	    font-weight: bold;
-	    color: #666;
-	    padding-top: 10px;
-	    padding-bottom: 10px;
-	    padding-left: 30px;
-	    background-color: #15283c;
-	    position: absolute;
-	    bottom: 200px !important;
-	    left: 100px;
-	    width:40% !important;
-	}
-	.btnBlog{
-		padding: 1em 7em 1em 7em;
-		background-color: #15283c;
-		border: none;
-	}
+}
+@media (max-width: 980px){
 	.backContadores {
-	   width: 120px;
-	   height: 120px;
-	   padding-top: 12%;
+	   width: 150px;
+	   height: 150px;
+	   padding-top: 15%;
+	   font-weight: 500;
+	}
+	.hvr-bubble-bottom {
+    	transform: inherit !important;
+    }
+}
+@media (max-width: 800px){
+	.menu-wrap-cornerbox-phone {
+	    right: 350px;
+	}
+	.menu-wrap-cornerbox-share-alt {
+	    right: 300px;
+	}
+	.menu-wrap-cornerbox-headphones {
+	    right: 150px;
+	}
+}
+
+
+
+@media (max-width: 768px){
+	.backContadores {
+	   width: 150px;
+	   height: 150px;
+	   padding-top: 15%;
+	   font-weight: 500;
 	}
 	.puntero {
-	    margin-top: 50px;
-	    height: 140px;
-	    font-size: 1.1em;
+	    height: 270px;
+	}
+	.hvr-bubble-bottom {
+    	transform: inherit !important;
+    }
+	/*desaparece las flechas de los contadores*/
+}
+
+@media (max-width: 480px){
+	.backContadores {
+	   width: 110px;
+	   height: 110px;
+	   padding-top: 30%;
+	   font-weight: 600;
+	}
+	h2{
+	font-size: 32px;
+	}
+	h3{
+		font-size: 25px;
+	}
+	h4{
+		font-size: 16px;
+	}
+	h5{
+		font-size: 18px;
+	}
+	h6{
+		font-size: 14px;
+	}
+	.back1 {
+	    padding-top: 55px;
+		padding-bottom: 55px;
+	}
+	.textInicioTrabj,
+	.textInicioHacms {
+	    margin-top: 10px;
+	    margin-bottom: 15px;
+	    font-size: 1em;
+	    text-align: center;
+	}
+	.lineaEncabezados {
+	    width: 20%;
+	    margin-bottom: 25px;
+	}
+	.orangeBtn {
+	    font-size: 0.9em;
+	    padding: 0.8em 2em 0.8em 2em;
+	}
+	.pad-box {
+	    padding-right: 30px;
+	    padding-left: 30px;
+	    padding-top: 20px;
+	}
+	.azulEncabezados {
+	    font-size: 32px;
+	    margin: 30px 0px;
+	}
+	.btn3 {
+	    padding: 0.5em 0.5em;
+	    border: 1px solid black;
+	    margin: 25px 50px 60px 50px;
+    }
+    .btnCmmi{
+	    width: 100%;
+    }
+	.bx-wrapper .bx-pager {
+		margin-bottom: 65% !important;
+	    left: 30%;
+	    width: 40% !important;
+	    margin: 20px 0px;
 	}
 	.puntero {
-	    margin-top: 60px;
-	    background-color: #fff;
-	    height: 280px;
+	    margin-top: 0px;
+	    height: 200px;
 	}
-	.encabInicioAzul {
-    	font-size: 2.3em;
+	.hvr-bubble-bottom {
+    	transform: inherit !important;
     }
-    
-    .encabezadoContadores {
-	    font-size: 1.4em;
+	.icon1 {
+		padding-top: 20px;
+		width: 70%;
 	}
-	.encabInicioHacemos{
-		font-size: 3em;
+	.icon2 {
+		padding-top: 20px;
+		width: 80%;
 	}
-	.encabIconos {
-    	font-size: 1.3em;
-    }
+	.icon3 {
+		width: 70%;
+		padding-top: 30px;
+	}
+	.icon4 {
+		width: 70%;
+	}
+    .encabIconos h5{
+	    font-size: 1em;
+	    padding: 10px 0px;
+	}
+	.backColorOrange {
+	    padding: 20px 0px 40px 0px;
+	}
+	.btnBlog {
+    	font-size: 0.9em;
+	    padding: 0.8em 4em 0.8em 4em;
+	}
+
+}
+@media (max-width: 320px){
+	.transparentBtn {
+		margin: 0px;
+	    padding: 0.4em 2em 0.4em 2em;
+	}
+}
+
+@media (max-width: 480px){
+
+
+}
+@media (max-width: 640px){
+
+
+}
+
+@media (max-width: 800px){
+
+
+}
+@media (max-width: 960px){
+
+
+}
+@media (max-width: 10240px){
+
+
+}
+@media (max-width: 1100px){
+
+
+}
+@media (max-width: 1280px){
+
+
+}
+@media (max-width: 1920px){
+
+
 }

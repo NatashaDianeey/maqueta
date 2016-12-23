@@ -250,4 +250,48 @@ $(document).ready(function(){
 		$(this).removeClass('backrgba');
 	});
 	$('.bxslider').bxSlider();
+	
+	
+	/*Hover en imagenes de Agencia*/
+	$('.equipo1').hover(function(){
+        $(this).animate({opacity:0.7});
+    },function(){
+        $(this).animate({opacity:1});
+    })
+    $('.equipo2').hover(function(){
+        $(this).animate({opacity:0.7});
+    },function(){
+        $(this).animate({opacity:1});
+    })
+    $('.equipo3').hover(function(){
+        $(this).animate({opacity:0.7});
+    },function(){
+        $(this).animate({opacity:1});
+    })
+    $('.equipo4').hover(function(){
+        $(this).animate({opacity:0.7});
+    },function(){
+        $(this).animate({opacity:1});
+    })
+    $('.equipo5').hover(function(){
+        $(this).animate({opacity:0.7});
+    },function(){
+        $(this).animate({opacity:1});
+    })
+    $('.equipo6').hover(function(){
+        $(this).animate({opacity:0.7});
+    },function(){
+        $(this).animate({opacity:1});
+    })
+    $('.equipo7').hover(function(){
+        $(this).animate({opacity:0.7});
+    },function(){
+        $(this).animate({opacity:1});
+    })
+    $('.equipo8').hover(function(){
+        $(this).animate({opacity:0.7});
+    },function(){
+        $(this).animate({opacity:1});
+    })
+	
  });

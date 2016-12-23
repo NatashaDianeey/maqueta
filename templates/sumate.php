@@ -1,12 +1,10 @@
-	<section>		
+	<section>
 		<div class="container-fluid backgroundSumate">
 			<div class="row bckBlack">
 				<div class="col-xs-12 text-center">
-			        <div class="infoVid" data-wow-delay="0.3s">
-				        <div class="container">
-					        <div class="row">
-								<h3 class="hiGamol">hi@gamol.com.mx</h3>
-							</div>
+			        <div class="container">
+				        <div class="row">
+							<h3 class="hiGamol">hi@gamol.com.mx</h3>
 				        </div>
 					</div>
 	        	</div>
@@ -88,7 +86,7 @@
 							<h3  class="buscaTalento">¡Siempre en busca de nuevos talentos!</h3>
 							<p class="textEnviaCV">Si estas interesado en una posición que no esta abierta,
 							envíanos tu CV a través de nuestro correo.</p>
-							<button type="submit" class="btn btn-env-cv">Enviar mi C.V.</button>
+							<button type="submit" class="blueBtn hvr-grow-shadow">Enviar mi C.V.</button>
 						</div>
 					</div>
 				</div>

@@ -3,19 +3,17 @@
 			<div class="bckContact">
 				<div class="row bckBlack">
 					<div class="col-xs-12 text-center">
-				        <div class="infoVid" data-wow-delay="0.3s">
-					        <div class="container">
-						        <div class="row">
-									<h3 class="conecta">Conecta con nosotros</h3>
-								</div>
-					        </div>
+				        <div class="container">
+					        <div class="row">
+								<h3 class="conecta">Conecta con nosotros</h3>
+							</div>
 						</div>
 					</div>
 	        	</div>
 	        </div>
         </div>
     </section>
-    <article class="backgroud-Image">
+    <article class="backgroud-Image-White">
 	    <section>
 			<div class="container-fluid backgroud-White">
 				<div class="container">
@@ -99,7 +97,7 @@
 							</div>
 							<div class="row">
 								<div class="col-xs-12">
-									<button type="submit" class="btn btn-enviar">Enviar</button>
+									<button type="submit" class="orangeBtn btn-enviar hvr-grow-shadow">Enviar</button>
 								</div>
 							</div>
 						</div>
@@ -128,6 +126,10 @@
 											</a>
 										</li>
 									</ul>
+								</div>
+								<div class="direc">
+									<p></p>
+									
 								</div>
 								<p class="direc">Av. Horacio No. 1844, piso 10 Esq. Periférico, Col. Los Morales polanco, C.P. 11510 México D.F.</p>
 								<p class="direc">Tel. +528(55) 5262 9393</p>

@@ -14,26 +14,104 @@ footer{
 	background-color: #15283c;
 	padding-top: 50px;
     padding-bottom: 50px;
+	font-weight: 200;
+	letter-spacing: 1px;
 
-   
+}
+.logoCmmi{
+	width: 70%;
+}
+.logoGamol-footer{
+	width: 60%;
+	text-align: center;
+	margin-left: 40%;
 }
 
 .liFooter{
 	list-style: none;
 	text-decoration: none;
+	font-size: 18px;
+	line-height: 40px;
+}
+.textFooter p{
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
 }
 
-@media (max-width: 320px) {	
+/* MEDIA QUERIES */
+@media (max-width: 1920px) {
+
+}
+@media (max-width: 1240px) {
+
+}
+@media (max-width: 980px) {
 	footer{
 		text-align: center;
+		font-size: 1.3em;
+		font-weight: 200;
+		letter-spacing: 1px;
 	}
+	.logoCmmi{
+		width: 35%;
+		padding-top: 20px;
+	}
+	.logoGamol-footer{
+		width: 35%;
+		padding-bottom: 20px;
+	}
+
 	.liFooter{
-		text-align: center !important;
+		margin-left: -40px;
+	}
+}
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 360px) {
+	footer{
+		text-align: center;
+		font-size: 0.8em;
+		letter-spacing: 1px;
+	}
+	.logoCmmi{
+		width: 50%;
+		padding-top: 20px;
+	}
+	.logoGamol-footer{
+		width: 50%;
+		padding-bottom: 20px;
+	}
+
+	.liFooter{
+		margin-left: -40px;
 	}
 }
 
-@media (max-width: 360px) {	
+@media (max-width: 320px) {
 	footer{
 		text-align: center;
-	}	
+		font-size: 0.8em;
+		font-weight: 200;
+		letter-spacing: 1px;
+	}
+	.logoCmmi{
+		width: 50%;
+		padding: 15px 0px 5px 0px;
+	}
+	.logoGamol-footer{
+		width: 50%;
+		padding:  0px 0px 25px 0px;
+	}
+
+	.liFooter{
+		margin-left: -30px;
+	}
+
 }

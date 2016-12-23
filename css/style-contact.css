@@ -59,7 +59,7 @@
 }
 
 /* Backg section*/
-.backgroud-Image{	
+.backgroud-Image-White{
 	background-image: url("../img/backg.jpg");
 	background-size: cover;
 	background-position: center bottom;
@@ -90,20 +90,9 @@
 /* FORMULARIO */
 
 .btn-enviar{
-	background-color: #f37820;
-    border-radius: none;
-    border: 0px solid transparent;
-    border-radius: 0px;
     margin-left: 400px;
-    padding: 1.5em 4em;
-    color: #fff;
-    font-weight: 300;
-    line-spacing: 2px;
     margin-top: -35px;
-    box-shadow: 10px 10px 5px rgba(135, 135, 135, 0.59); 
-}
-.btn-enviar:hover{
-	color: #15293e;
+
 }
 
 .form-control {
@@ -159,13 +148,16 @@ select> .form-control{
 /* box blue*/
 
 .bkg-reds {
-    background-image: url("../img/bkg.jpg");
+    background-image: url("../img/bgs/bkg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 4% 0% 0% 7%;
+    padding: 3% 0% 0% 4%;
     width: 80px;
     height: 80px;
+    color: #f37920;
     border: 10px solid #fff;
+    font-size: 2em;
+	margin: -3% 0px 0px 24px;
 }
 
 .box-blue {
@@ -175,24 +167,6 @@ select> .form-control{
     padding: 60px 40px 10px 40px;
     -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
     height:auto;
-}
-
-/*icons*/
-
-.fa-facebook,
-.fa-linkedin,
-.fa-twitter,
-.fa-whatsapp{
-	font-size: 2em !important;
-	margin: -3% 0px 0px 24px;
-}
-.fa-whatsapp:before,
-.fa-twitter:before,
-.fa-facebook:before,
-.fa-linkedin:before {
-    color: #f37920;
-    position: relative;
-    margin: -15px;
 }
 
 #circleRedes {
@@ -211,16 +185,38 @@ select> .form-control{
 }
 
 .no-mar {
-	margin-right: 0; 
-	margin-left: 0; 
+	margin-right: 0;
+	margin-left: 0;
 }
-.no-martop {
-	margin-top: 0; 
-}
+
 .no-pad {
-	padding-right: 0; 
-	padding-left: 0; 
+	padding-right: 0;
+	padding-left: 0;
 }
+
+@media (max-width: 980px) {
+	.box-white {
+	    margin: 20px -5px;
+	    padding: 30px 30px;
+    }
+    .bkg-reds {
+	    padding: 3% 0% 0% 4%;
+	    width: 120px;
+	    height: 120px;
+	    border: 10px solid #fff;
+	    font-size: 2em;
+	    margin: -3% 0px 0px 45px;
+	}
+}
+
+@media (max-width: 800px) {
+	.box-white {
+	    margin: 20px -5px;
+	    padding: 30px 30px;
+    }
+}
+
+
 @media (max-width: 768px) {
 	.conecta {
 	    font-size: 70px;
@@ -233,7 +229,7 @@ select> .form-control{
 	    padding: 30px 30px;
     }
     .btn-enviar {
-	    margin-top: -65px;
+	    margin-top: -6%;
 	    margin-left: 60%;
 	    padding: 12px 35px;
 	}
@@ -252,17 +248,22 @@ select> .form-control{
 	    margin: -20px 25px 7px;
 	    border: 10px solid #fff;
 	}
-/*
-	.fa-facebook, .fa-linkedin, .fa-twitter, .fa-whatsapp {
-    	font-size: 3.5em;
-    }
-*/
 	.direc {
     	font-size: 1.8em;
     }
 
 }
 
+@media (max-width: 640px){
+	.bkg-reds {
+	    width: 85px;
+	    height: 85px;
+	    margin: 7px 14px;
+	    border: 6px solid #fff;
+	}
+}
+
+}
 @media (max-width: 414px) {
 	.bckContact {
 	    background-position: center;
@@ -306,12 +307,6 @@ select> .form-control{
 	    height: 65px;
 	    margin: 7px 14px;
 	    border: 6px solid #fff;
-	}
-	.fa-whatsapp:before, 
-	.fa-twitter:before, 
-	.fa-facebook:before, 
-	.fa-linkedin:before {
-    	margin: -10px;
 	}
 	.direc {
 	    font-size: 1.2em;
@@ -363,7 +358,7 @@ select> .form-control{
 	    padding: 30px 30px;
     }
     .btn-enviar {
-	    margin-top: -65px;
+	    margin-top: -45px;
 	    margin-left: 60%;
 	    padding: 12px 35px;
 	}
@@ -381,12 +376,6 @@ select> .form-control{
 	    height: 65px;
 	    margin: 7px;
 	    border: 6px solid #fff;
-	}
-	.fa-whatsapp:before, 
-	.fa-twitter:before, 
-	.fa-facebook:before, 
-	.fa-linkedin:before {
-    	margin: -10px;
 	}
 	.direc {
 	    font-size: 0.9em;
@@ -429,7 +418,7 @@ select> .form-control{
 	    padding: 30px 30px;
     }
 	.btn-enviar {
-	    margin-top: -65px;
+	    margin-top: -40px;
 	    margin-left: 150px;
 	    padding: 12px 35px;
 	}
@@ -445,12 +434,11 @@ select> .form-control{
 	}
 	/* box blue */
 	.bkg-reds {
-	    padding: 8px;
 	    width: 55px;
 	    height: 55px;
 	    border: 6px solid #fff;
-	}   
-   
+	}
+
 	.box-blue {
 	    width: 100%;
 	    height: auto;
@@ -461,24 +449,5 @@ select> .form-control{
 	    font-size: 0.79em;
 	    font-weight: 200;
 	}
-	.fa-whatsapp:before, 
-	.fa-twitter:before, 
-	.fa-facebook:before, 
-	.fa-linkedin:before {
-    	margin: 2px;
-	}
-	
-}
-/*
 
-@media (max-width: 768px) {
 }
-@media (max-width: 800px) {
-}
-@media (max-width: 1024px) {
-}
-@media (max-width: 414px) {
-}
-@media (max-width: 414px) {
-}
-*/

@@ -9,44 +9,44 @@
 /*mediaquery desktop 2*/
 
 
-/*COLORES*/
-
-.orange_light{
-	color:#F28C4D;	
-}
 
 
 /*BACKS*/
 
-.back8{
-	background-color: #15283c;
-	padding-top: 50px;
-    padding-bottom: 50px; 
-}
 .back9{
 	background-color: #15283c;
 }
 .back10{
 	background-color: #e0e0e0;
 	padding-top: 65px;
+	padding-bottom: 65px;
 }
 .back11{
 	background-color: white;
 	padding-top: 55px;
+	box-shadow: 10px 10px 5px #88888880;
 }
 
-.margenBoton{
-	margin-top: 25px;
+.margenBoton {
+    margin-top: -25px;
+    margin-left: 850px;
+}
+.text-slim{
+	font-weight: 200;
+	padding: 30px 0px 10px 0px;
+}
+.imageBlog{
+	width: 100%;
 }
 
 /* CONTACTO*/
 
 .menu-lateral {
 	position: fixed;
-	right: 404px;
+	right: 326px;
 	top: 30%;
 	z-index: 1000;
-	
+
 }
 .menu-lateral ul {
 	padding: 0;
@@ -60,7 +60,7 @@
 
 .menu-lateral ul li a span {
 	display: none;
-	
+
 }
 
 #face{
@@ -80,74 +80,92 @@
 	background: #FF684B;
 }
 /*MEDIASQUERIES*/
-
-
-/*VERSION MOBILE*/
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1024px) {
-	
+@media (max-width : 980px) {
+	.margenBoton {
+	    margin-top: -25px;
+	    margin-left: 850px;
+	    margin-left: 550px;
+	}
 }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 768px) and (max-width: 979px) {
-	
+/* Extra Small Devices, Phones */
+@media (max-width : 360px) {
+	.pad-box {
+	    padding-right: 0px;
+	    padding-left: 0px;
+	}
+	.margenBoton {
+		margin-top: -20px;
+		margin-left: 140px;
+	}
+	.encabezadoBlogInterna{
+		font-size: 23px;
+	}
+	.text-slim {
+	    font-weight: 200;
+	    padding: 0px 0px 10px 0px;
+	}
+	.back11{
+		margin: 0px 6px 0px 6px;
+	}
 }
+@media (max-width : 320px) {
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
-		
+/*
+	.menu-lateral {
+		position: fixed;
+		right:0%;
+		top:20%;
+		z-index: 2000;
+	}
+	.menu-lateral ul {
+		padding: 0;
+		list-style: none;
+	}
+	.menu-lateral ul li a {
+		display: inline-block;
+		padding: 10px 15px;
+		width: 80px;
+		-webkit-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		transition: all 500ms ease;
+	}
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-	
-	
-}
+	.menu-lateral ul li a span {
+		display: none;
 
+	}
+*/
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1224px) {
-}
+	.text-slim{
+		font-weight: 200;
+		padding: 0px 0px 10px 0px;
+	}
 
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 678px) and (max-width : 1024px) {
-
-}
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 481px) and (max-width : 677px) {
-
-}
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-
-.menu-lateral {
-	position: fixed;
-	right:0%;
-	top:20%;
-	z-index: 2000;
-}
-.menu-lateral ul {
-	padding: 0;
-	list-style: none;
-}
-.menu-lateral ul li a {
-	display: inline-block;
-	padding: 10px 15px;
-	width: 80px;
-	-webkit-transition: all 500ms ease;
-	-o-transition: all 500ms ease;
-	transition: all 500ms ease;
-}
-
-.menu-lateral ul li a span {
-	display: none;
-	
-}
-
-
-	
-
+	.ceroPadText{
+		padding: 0px;
+	}
+	.text-blog{
+		font-size: 1em;
+	}
+	.back10 {
+	    padding-top: 0px;
+	}
+	.encabezadoBlogInterna{
+		font-size: 20px;
+	}
+	.lineaBlog {
+	    width: 15%;
+	}
+	.margenBoton {
+	    margin-left: 180px;
+	}
+	.ceroPadInterna{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.back11{
+		margin: 0px 6px 0px 6px;
+	}
 }
 
 
